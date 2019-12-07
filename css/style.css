@@ -58,6 +58,23 @@ a:hover {
 	color: #00D4C6;
 }
 
+.button {
+	color: #00877E;
+	border: 1px solid #00877E;
+	padding: 10px;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 0;
+}
+
+.cta {
+	text-align: left;
+	margin-top: 40px;
+}
+.cta h3 {
+	font-size: 1rem;
+	margin-bottom: .5rem;
+}
 @media only screen and (min-width: 768px) {
 	header {
 		width: 60%;
@@ -68,6 +85,14 @@ a:hover {
 		top: -120px;
 		left: -160px;
 	}
+	.cta {
+		text-align: center;
+		margin-top: 40px;
+	}
+	.cta h3 {
+		font-size: 1.8rem;
+		margin-bottom: 8rem;
+	}	
 }
 
 @media only screen and (min-width: 1024px) {
@@ -80,5 +105,9 @@ a:hover {
 		width: 540px;
 		top: -120px;
 		left: -260px;
+	}
+	.cta h3 {
+		font-size: 2rem;
+		margin-bottom: 1rem;
 	}
 }
