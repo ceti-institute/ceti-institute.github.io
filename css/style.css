@@ -25,18 +25,33 @@ h1 {
 	font-size: 4em;
 }
 
-header {
+p {
+	line-height: 1.2rem;
+}
+header, .about {
 	width: 90%;
 	margin: auto;
-	height: 100vh;
 	margin-top: 2em;
 	position: relative;
-	padding-bottom: 60px;
+	padding-bottom: 40px;
 }
 
 header h1 {
 	margin-bottom: 0;
 }
+
+main { width: 90%; margin: auto; }
+img {
+	width: 100%;
+}
+
+.wlf {
+	display: grid;
+	grid-template-columns: 40% 60%;
+	grid-gap: 1em;
+}
+
+.wlf .button {margin-top: 1rem;}
 
 .bang {
 	position: absolute;
@@ -82,8 +97,12 @@ a:hover {
 	font-size: 1rem;
 	margin-bottom: .5rem;
 }
+
+.center {
+	text-align: center;
+}
 @media only screen and (min-width: 768px) {
-	header {
+	header, .about {
 		width: 60%;
 		margin-top: 4em;
 	}
@@ -106,7 +125,7 @@ a:hover {
 }
 
 @media only screen and (min-width: 1024px) {
-	header {
+	header, .about {
 		width: 50%;
 		max-width: 700px;
 		margin-top: 5em;
