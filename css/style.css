@@ -7,7 +7,13 @@ font-family: 'Open Sans', sans-serif;
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+	font-size: 14px;
+/*	background-image: url('../images/mira3000.jpg');
+	background-size: cover;
+	background-repeat:no-repeat;
+	color: #fff;*/
+	color: #2a2a2a;
+	background-image: url(../images/cream_dust.png);
 }
 h1, h2, h3, h4, h5 {
 	font-family: 'Ubuntu', sans-serif;
@@ -24,6 +30,7 @@ h1 {
 header {
 	width: 90%;
 	margin: auto;
+	height: 100vh;
 }
 
 header h1 {
@@ -38,7 +45,7 @@ a {
 	 }
 
 a:hover {
-	color: #00403B;
+	color: #00D4C6;
 }
 
 @media only screen and (min-width: 768px) {
