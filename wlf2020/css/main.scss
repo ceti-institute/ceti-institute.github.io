@@ -1,0 +1,354 @@
+$color--active: #f6607e;
+$color--body: lighten(black, 10%);
+
+//MEDIA QUERIES
+
+//MEDIA QUERIES
+$mq__max_width--mobile: 667px;
+$mq__max_width--mobile_dpr3: 812px;
+$mq__max_width--tablet: 1024px;
+$mq__max_width--desktop: 1600px;
+
+@mixin mq--mobile {
+  @media only screen and (max-device-width: $mq__max_width--mobile),
+    (max-device-width: $mq__max_width--mobile_dpr3) and (-webkit-device-pixel-ratio: 3) {
+    @content;
+  }
+}
+
+@mixin mq--tablet {
+  @media only screen and (min-device-width : #{$mq__max_width--mobile + 1}) and (max-device-width : $mq__max_width--tablet) {
+    @content;
+  }
+}
+
+@mixin mq--desktop_max {
+  @media only screen and (min-device-width : #{$mq__max_width--desktop}) {
+    @content;
+  }
+}
+
+@mixin headline() {
+  font-family: "colfax", sans-serif;
+}
+
+@font-face {
+  font-family: "colfax", sans-serif;
+  src: url("../fonts/colfaxMedium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inconsolata", monospace;
+  color: $color--body;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "colfax", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  //text-decoration: none;
+  color: $color--body;
+  transition: color 250ms linear;
+  &:hover {
+    color: $color--active;
+  }
+}
+
+strong {
+  font-weight: 700;
+}
+
+iframe {
+  border: 0;
+}
+
+.hackathon {
+  &__header {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+
+    &--full {
+      height: 500px;
+      align-items: center;
+      background-image: url("../images/banner.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    &--compact {
+      padding: 20px;
+      .hackathon__header_group {
+        text-align: left;
+        width: 100%;
+        max-width: 1000px;
+      }
+    }
+  }
+  &__header_group {
+    text-align: center;
+  }
+  &__title {
+    font-size: 20px;
+  }
+  &__subtitle {
+    font-size: 80px;
+  }
+  &__main_nav {
+    display: flex;
+    padding: 0 20px;
+    border-bottom: 1px solid white;
+    background-color: black;
+    justify-content: center;
+  }
+  &__main_nav_list {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+  }
+  &__main_nav_item {
+    margin-left: 20px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+  &__main_nav_link {
+    color: white;
+    transition: color 250ms linear;
+    &:hover {
+      color: $color--active;
+    }
+  }
+  &__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__section {
+    max-width: 1000px;
+    width: 100%;
+    padding: 40px 0;
+  }
+  &__section_title {
+    font-size: 14px;
+  }
+  &__section_subtitle {
+    font-size: 30px;
+    .hackathon__section--info & {
+      margin-top: 30px;
+    }
+  }
+  &__info_container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    &--flip {
+      .hackathon__info_sidebar {
+        width: 60%;
+      }
+      .hackathon__info_description {
+        width: 30%;
+      }
+    }
+    &--standard {
+      .hackathon__info_description {
+        width: 60%;
+      }
+      .hackathon__info_sidebar {
+        width: 30%;
+      }
+    }
+  }
+  &__info_image {
+    width: 100%;
+  }
+  &__contributors_title {
+    margin-top: 40px;
+  }
+  
+  &__map_iframe {
+    height: 300px;
+  }
+  &__projects_container {
+    columns: 3 300px;
+    column-gap: 33px;
+  }
+  &__project_container {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+    &:hover {
+      .hackathon__project_info_container {
+        opacity: 1;
+      }
+    }
+  }
+  &__project_image {
+    width: 100%;
+  }
+  &__project_info_container {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 500ms linear;
+    background-color: rgba($color--active, 0.9);
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &:hover {
+      color: black;
+    }
+  }
+  &__project_title {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  &__project_team {
+    margin: 20px 0 0 0;
+  }
+  &__participants_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  &__participants_group {
+    margin-top: 20px;
+  }
+  &__participants_column {
+    width: 300px;
+  }
+  &__participants_letter {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    @include headline();
+  }
+  &__participants_list {
+    margin-top: 20px;
+  }
+  &__participant_item {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &__participant_image {
+    width: 30px;
+  }
+  &__participant_name {
+    margin-left: 10px;
+  }
+  &__partners_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__partner_item {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 30px;
+  }
+  &__partner_link {
+    display: block;
+  }
+  &__partner_image {
+    max-width: 100%;
+  }
+  &__footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  &__footer_nav {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    a {
+      color: white;
+    }
+  }
+  &__social_item {
+    display: inline-block;
+    margin-left: 20px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+  &__legal_list {
+    display: flex;
+  }
+  &__legal_item {
+    margin-left: 20px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+@include mq--mobile() {
+  .hackathon {
+    &__subtitle {
+      font-size: 30px;
+    }
+    &__title {
+      font-size: 18px;
+    }
+    &__section {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    &__info_container {
+      flex-wrap: wrap;
+    }
+    &__info_description,
+    &__info_sidebar {
+      width: 100%;
+      max-width: 100%;
+      flex-basis: 100%;
+    }
+    &__legal_list {
+      flex-wrap: wrap;
+    }
+    &__legal_item {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+}

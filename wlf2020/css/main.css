@@ -1,0 +1,307 @@
+@font-face {
+  font-family: "colfax", sans-serif;
+  src: url("../fonts/colfaxMedium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inconsolata", monospace;
+  color: #1a1a1a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "colfax", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: #1a1a1a;
+  transition: color 250ms linear;
+}
+a:hover {
+  color: #f6607e;
+}
+
+strong {
+  font-weight: 700;
+}
+
+iframe {
+  border: 0;
+}
+
+.hackathon__header {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: center;
+}
+.hackathon__header--full {
+  height: 500px;
+  align-items: center;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.hackathon__header--compact {
+  padding: 20px;
+}
+.hackathon__header--compact .hackathon__header_group {
+  text-align: left;
+  width: 100%;
+  max-width: 1000px;
+}
+.hackathon__header_group {
+  text-align: center;
+}
+.hackathon__title {
+  font-size: 20px;
+}
+.hackathon__subtitle {
+  font-size: 80px;
+}
+.hackathon__main_nav {
+  display: flex;
+  padding: 0 20px;
+  border-bottom: 1px solid white;
+  background-color: black;
+  justify-content: center;
+}
+.hackathon__main_nav_list {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+}
+.hackathon__main_nav_item {
+  margin-left: 20px;
+}
+.hackathon__main_nav_item:first-child {
+  margin-left: 0;
+}
+.hackathon__main_nav_link {
+  color: white;
+  transition: color 250ms linear;
+}
+.hackathon__main_nav_link:hover {
+  color: #f6607e;
+}
+.hackathon__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hackathon__section {
+  max-width: 1000px;
+  width: 100%;
+  padding: 40px 0;
+}
+.hackathon__section_title {
+  font-size: 14px;
+}
+.hackathon__section_subtitle {
+  font-size: 30px;
+}
+.hackathon__section--info .hackathon__section_subtitle {
+  margin-top: 30px;
+}
+.hackathon__info_container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.hackathon__info_container--flip .hackathon__info_sidebar {
+  width: 60%;
+}
+.hackathon__info_container--flip .hackathon__info_description {
+  width: 30%;
+}
+.hackathon__info_container--standard .hackathon__info_description {
+  width: 60%;
+}
+.hackathon__info_container--standard .hackathon__info_sidebar {
+  width: 30%;
+}
+.hackathon__info_image {
+  width: 100%;
+}
+.hackathon__contributors_title {
+  margin-top: 40px;
+}
+.hackathon__map_iframe {
+  height: 300px;
+}
+.hackathon__projects_container {
+  columns: 3 300px;
+  column-gap: 33px;
+}
+.hackathon__project_container {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  margin-top: 30px;
+}
+.hackathon__project_container:hover .hackathon__project_info_container {
+  opacity: 1;
+}
+.hackathon__project_image {
+  width: 100%;
+}
+.hackathon__project_info_container {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 500ms linear;
+  background-color: rgba(246, 96, 126, 0.9);
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hackathon__project_info_container:hover {
+  color: black;
+}
+.hackathon__project_title {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.hackathon__project_team {
+  margin: 20px 0 0 0;
+}
+.hackathon__participants_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.hackathon__participants_group {
+  margin-top: 20px;
+}
+.hackathon__participants_column {
+  width: 300px;
+}
+.hackathon__participants_letter {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "colfax", sans-serif;
+}
+.hackathon__participants_list {
+  margin-top: 20px;
+}
+.hackathon__participant_item {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.hackathon__participant_image {
+  width: 30px;
+}
+.hackathon__participant_name {
+  margin-left: 10px;
+}
+.hackathon__partners_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.hackathon__partner_item {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 30px;
+}
+.hackathon__partner_link {
+  display: block;
+}
+.hackathon__partner_image {
+  max-width: 100%;
+}
+.hackathon__footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.hackathon__footer_nav {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+}
+.hackathon__footer_nav a {
+  color: white;
+}
+.hackathon__social_item {
+  display: inline-block;
+  margin-left: 20px;
+}
+.hackathon__social_item:first-child {
+  margin-left: 0;
+}
+.hackathon__legal_list {
+  display: flex;
+}
+.hackathon__legal_item {
+  margin-left: 20px;
+}
+.hackathon__legal_item:first-child {
+  margin-left: 0;
+}
+
+@media only screen and (max-device-width: 667px), (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .hackathon__subtitle {
+    font-size: 30px;
+  }
+  .hackathon__title {
+    font-size: 18px;
+  }
+  .hackathon__section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .hackathon__info_container {
+    flex-wrap: wrap;
+  }
+  .hackathon__info_description, .hackathon__info_sidebar {
+    width: 100%;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  .hackathon__legal_list {
+    flex-wrap: wrap;
+  }
+  .hackathon__legal_item {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
