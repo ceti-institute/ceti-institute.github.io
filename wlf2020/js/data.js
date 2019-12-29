@@ -245,7 +245,7 @@ SITE_DATA = {
     },
     {
       name: "Alanna Risse",
-      link: '',
+      link: 'http://alannarisse.com',
     },
     {
       name: "Catherine Ross",

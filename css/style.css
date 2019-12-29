@@ -40,7 +40,7 @@ header h1 {
 	margin-bottom: 0;
 }
 
-main { width: 90%; margin: auto; }
+main { width: 100%; margin: auto; }
 img {
 	width: 100%;
 }
@@ -53,6 +53,20 @@ img {
 
 .wlf .button {margin-top: 1rem;}
 
+.wlf-link {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.wlf-link h2 {
+    margin-bottom: 0;
+    font-size: 3em;
+}
+
+.wlf-link h3 {
+    margin-top: .3em;
+}
+
 .bang {
 	position: absolute;
 	top: -80px;
@@ -63,7 +77,7 @@ img {
 }
 
 h2.tagline { 
-	margin-top: 0; 
+	margin-top: 1em; 
 }
 
 
@@ -73,7 +87,7 @@ a {
 }
 
 a:hover {
-	color: #00D4C6;
+	color: #fd9200;
 }
 
 .button {
@@ -86,9 +100,12 @@ a:hover {
 }
 
 .button:hover {
-	border: 1px solid #00D4C6;
+	border: 1px solid #fd9200;
 }
 
+.mailchimp-div {
+    display: none;
+}
 .cta {
 	text-align: left;
 	margin-top: 40px;
@@ -197,7 +214,7 @@ a:hover {
     line-height: 70px;
 }
 .menu-mobile a:hover {
-    color: red;
+    color: #fd9200;
 }
 
 .desktop, .menu-desktop, .menu-mobile {
@@ -206,12 +223,12 @@ a:hover {
 
 
 
+
 @media only screen and (min-width: 768px) {
 	header, .about, .wlf {
 		width: 60%;
 		margin: auto;
 		margin-top: 4em;
-
 	}
 	h1 {
 		font-size: 6em;
@@ -229,6 +246,7 @@ a:hover {
 		font-size: 1.8rem;
 		margin-bottom: .8rem;
 	}
+
 	.menu-desktop {
         width: 100%;
         display: block;
@@ -253,7 +271,7 @@ a:hover {
         justify-content: space-evenly;
     }
     .menu-desktop a:hover {
-        color: red;
+        color: #fd9200;
     }
 
     .desktop {
@@ -266,6 +284,10 @@ a:hover {
     nav.nav, .menu-mobile {
         display: none;
     }
+    .wlf-link {
+        margin-top: 4em;
+        margin-bottom: 4em;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -274,6 +296,10 @@ a:hover {
 		max-width: 700px;
 		margin-top: 5em;
 	}
+    .wlf-link {
+        margin-top: 5em;
+        margin-bottom: 5em;
+    }
 	.bang {
 		width: 540px;
 		top: -120px;
