@@ -3,7 +3,16 @@ website for ceti institute
 
 ## WLF 2020
 
-A microsite for the Winter Lights 2020 Festival. 
+A microsite for the Winter Lights 2020 Festival. If you will be working on this website, *please read all of the following carefully before committing any changes to this repo*.
+
+
+### CSS
+
+This project uses sass for CSS styling. To compile the sass, `npm install sass -g` and, from the `wlf2020/css` directory, run `sass --watch main.scss main.css`. *You should not edit the `main.css` file directly*.
+
+
+
+### DATA
 
 The projects and participants are populated via the `data.js` file. For any imagery, make sure it goes in its appropriate folder:
 

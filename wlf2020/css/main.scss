@@ -1,4 +1,5 @@
-$color--active: #f6607e;
+$color--active: #fd9200;
+$color--black: #2c2b2f;
 $color--body: lighten(black, 10%);
 
 //MEDIA QUERIES
@@ -45,7 +46,7 @@ $mq__max_width--desktop: 1600px;
 
 body {
   margin: 0;
-  font-family: "Inconsolata", monospace;
+  font-family: 'Open Sans', sans-serif;
   color: $color--body;
 }
 
@@ -55,7 +56,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "colfax", sans-serif;
+  font-family:'Ubuntu', sans-serif;
   text-transform: uppercase;
   margin: 0;
   font-weight: 700;
@@ -67,7 +68,7 @@ ul {
 }
 
 a {
-  //text-decoration: none;
+  text-decoration: underline;
   color: $color--body;
   transition: color 250ms linear;
   &:hover {
@@ -83,10 +84,15 @@ iframe {
   border: 0;
 }
 
+.logotype {
+  font-family:'Ubuntu', sans-serif;
+  font-size: 20px;
+}
+
 .hackathon {
   &__header {
     display: flex;
-    background-color: black;
+    background-color: $color--black;
     color: white;
     justify-content: center;
 
@@ -111,6 +117,7 @@ iframe {
   }
   &__title {
     font-size: 20px;
+    margin-top: 20px;
   }
   &__subtitle {
     font-size: 80px;
@@ -119,7 +126,7 @@ iframe {
     display: flex;
     padding: 0 20px;
     border-bottom: 1px solid white;
-    background-color: black;
+    background-color: $color--black;
     justify-content: center;
   }
   &__main_nav_list {
@@ -136,6 +143,7 @@ iframe {
   &__main_nav_link {
     color: white;
     transition: color 250ms linear;
+    text-decoration: none;
     &:hover {
       color: $color--active;
     }
@@ -169,6 +177,10 @@ iframe {
       }
       .hackathon__info_description {
         width: 30%;
+        p {
+          font-size: 1em;
+          line-height: 1.4em;
+        }        
       }
     }
     &--standard {
@@ -269,6 +281,9 @@ iframe {
   &__participant_name {
     margin-left: 10px;
   }
+  &__section--partners {
+    margin-bottom: 50px;
+  }
   &__partners_list {
     display: flex;
     flex-wrap: wrap;
@@ -279,9 +294,12 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid $color--black;
     padding: 10px;
     margin-top: 30px;
+    &:hover {
+      border: 1px solid $color--active;
+    }
   }
   &__partner_link {
     display: block;
@@ -302,6 +320,9 @@ iframe {
     width: 100%;
     a {
       color: white;
+      &:hover {
+        color: $color--active;
+      }
     }
   }
   &__social_item {

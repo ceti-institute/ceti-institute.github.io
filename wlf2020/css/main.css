@@ -10,35 +10,29 @@
 
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #1a1a1a;
 }
 
-a {
-  text-decoration: none;
-}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family:'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   text-transform: uppercase;
   margin: 0;
   font-weight: 700;
 }
 
-.logotype {
-  font-family:'Ubuntu', sans-serif;
-  font-size: 20px;
-}
 ul {
   list-style: none;
   padding: 0;
 }
 
 a {
+  text-decoration: underline;
   color: #1a1a1a;
   transition: color 250ms linear;
 }
@@ -54,10 +48,11 @@ iframe {
   border: 0;
 }
 
-p {
-  font-size: 16px;
-  line-height: 1.4em;
+.logotype {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
 }
+
 .hackathon__header {
   display: flex;
   background-color: #2c2b2f;
@@ -110,6 +105,7 @@ p {
 .hackathon__main_nav_link {
   color: white;
   transition: color 250ms linear;
+  text-decoration: none;
 }
 .hackathon__main_nav_link:hover {
   color: #fd9200;
@@ -143,6 +139,10 @@ p {
 }
 .hackathon__info_container--flip .hackathon__info_description {
   width: 30%;
+}
+.hackathon__info_container--flip .hackathon__info_description p {
+  font-size: 1em;
+  line-height: 1.4em;
 }
 .hackathon__info_container--standard .hackathon__info_description {
   width: 60%;
@@ -184,7 +184,7 @@ p {
   height: 100%;
   opacity: 0;
   transition: opacity 500ms linear;
-  background-color: rgba(246, 96, 126, 0.9);
+  background-color: rgba(253, 146, 0, 0.9);
   padding: 20px 10px;
   display: flex;
   justify-content: center;
@@ -192,7 +192,7 @@ p {
   flex-direction: column;
 }
 .hackathon__project_info_container:hover {
-  color: #fd9200;
+  color: black;
 }
 .hackathon__project_title {
   font-weight: 700;
@@ -236,8 +236,7 @@ p {
 .hackathon__participant_name {
   margin-left: 10px;
 }
-
-.hackathon__section--partners{
+.hackathon__section--partners {
   margin-bottom: 50px;
 }
 .hackathon__partners_list {
@@ -263,17 +262,8 @@ p {
 .hackathon__partner_image {
   max-width: 100%;
 }
-
-footer a {
- text-decoration: none;
-}
-
-footer a:hover {
-  color: #fd9200;
-}
-
 .hackathon__footer {
-  background-color: #2c2b2f;
+  background-color: black;
   color: white;
   padding: 20px;
   display: flex;
@@ -286,6 +276,9 @@ footer a:hover {
 }
 .hackathon__footer_nav a {
   color: white;
+}
+.hackathon__footer_nav a:hover {
+  color: #fd9200;
 }
 .hackathon__social_item {
   display: inline-block;
@@ -311,7 +304,6 @@ footer a:hover {
   .hackathon__title {
     font-size: 18px;
   }
-  
   .hackathon__section {
     padding-left: 20px;
     padding-right: 20px;
