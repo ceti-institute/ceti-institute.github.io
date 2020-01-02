@@ -37,18 +37,8 @@ const hackathonModule = (function () {
     let curLetter = null;
 
     const curParticipants = SITE_DATA.participants.sort((a, b) => {
-      
-      // if (a.name < b.name) {
-      //   return -1;
-      // }
-      // if (b < a) {
-      //   return 1;
-      // }
-      // return 0;
-      return a.name[0].localeCompare(b.name[0]);
+      return a.name.localeCompare(b.name);
     });
-
-    console.log(curParticipants);
 
     curParticipants.forEach((participantItem, index) => {
       const column = index < numParticipants / 3 ? 0 : index < (numParticipants / 3) * 2 ? 1 : 2;
@@ -79,7 +69,7 @@ const hackathonModule = (function () {
           </li>
       `
       $letterGroupList.insertAdjacentHTML('beforeend', participantMarkup);
-    })
+    });
 
   }
 
