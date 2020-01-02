@@ -48,6 +48,10 @@ iframe {
   border: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 .logotype {
   font-family: "Ubuntu", sans-serif;
   font-size: 20px;
