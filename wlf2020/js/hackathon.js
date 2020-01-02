@@ -18,7 +18,6 @@ const hackathonModule = (function () {
       .join('_');
 
       const projectLink = `hackathon-project.html?project=${projectSlug}`
-
       const projectMarkup = `
       <div class="hackathon__project_container">
           <a class="hackathon__project_info_container" href="${projectLink}">

@@ -52,6 +52,10 @@ img {
   max-width: 100%;
 }
 
+#Projects {
+  display: none;
+}
+
 .logotype {
   font-family: "Ubuntu", sans-serif;
   font-size: 20px;
