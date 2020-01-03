@@ -9,6 +9,8 @@ const hackathonModule = (function () {
     populateProjects();
   }
 
+  function titleCase(str) {  return str.toLowerCase().replace(/(^|\s)\S/g,  (firstLetter) => firstLetter.toUpperCase());}
+
   function populateProjects(){
     const $projectsContainer = document.querySelector('.hackathon__projects_container');
     SITE_DATA.projects.map((projectItem,index)=>{
@@ -34,6 +36,16 @@ const hackathonModule = (function () {
     console.log('populateParticipants');
     const numParticipants = SITE_DATA.participants.length;
     let curLetter = null;
+
+    SITE_DATA.participants.forEach((participantItem,index)=>{
+      let participantFirst = participantItem['First Name'];
+      let participantLast = participantItem['Last Name'];
+      let participantInsta = participantItem['Instagram'];
+      let participantWebpage = participantItem['Webpage'];
+      participantItem.name = titleCase(`${participantFirst ? participantFirst : ''} ${participantLast ? participantLast : ''}`);
+      //participantItem.name = participantItem['First Name'] + participantItem['Last Name']
+      participantItem.link = participantInsta ? `http://instagram.com/${participantInsta}` : participantWebpage ? `http://${participantWebpage}` : '';
+    });
 
     const curParticipants = SITE_DATA.participants.sort((a, b) => {
       return a.name.localeCompare(b.name);
