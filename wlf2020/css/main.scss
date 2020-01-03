@@ -1,6 +1,6 @@
 $color--active: #fd9200;
 $color--black: #2c2b2f;
-$color--body: lighten(black, 10%);
+$color--body: lighten(black, 15%);
 
 //MEDIA QUERIES
 
@@ -48,6 +48,7 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   color: $color--body;
+  font-size: 20px;
 }
 
 h1,

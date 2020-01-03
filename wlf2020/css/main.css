@@ -11,7 +11,8 @@
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
-  color: #1a1a1a;
+  color: #262626;
+  font-size: 20px;
 }
 
 h1,
@@ -33,7 +34,7 @@ ul {
 
 a {
   text-decoration: underline;
-  color: #1a1a1a;
+  color: #262626;
   transition: color 250ms linear;
 }
 a:hover {
