@@ -150,6 +150,12 @@ const PEOPLE_DATA = [
       link: 'https://scottgarner.com'
     },
     {
+      name: 'Alanna Risse',
+      img: 'alanna-risse.png',
+      page: 'alanna-risse.html',
+      link: 'https://alannarisse.com'
+    },
+    {
       name: 'Jeremy Rotsztain',
       img: 'jeremyrotsztain.jpg',
       page: 'people.html',
@@ -214,39 +220,26 @@ const PEOPLE_DATA = [
       img: 'Craig-Winslow-updated.jpg',
       page: 'people.html',
       link: 'https://scottgarner.com'
-    },
-    {
-      name: 'Alanna Risse',
-      img: 'alanna-risse.png',
-      page: 'alanna-risse.html',
-      link: 'https://alannarisse.com'
     }
 	];
 
 function renderPeople(array) {
   console.log(PEOPLE_DATA.length);
-  let htmlfun = ''
   for (let i = 0; i < PEOPLE_DATA.length; i++ ){
-
     $('main').find('#peopleGrid').append(`
-    <div class="person">
-        <img src="images/people/${PEOPLE_DATA[i].img}" alt="${PEOPLE_DATA[i].name}">
-        <div class="overlay">
-          <div class="text">${PEOPLE_DATA[i].name}</div>
+      <div class="person-card">
+        <div class="person">
+          <img src="images/people/${PEOPLE_DATA[i].img}" alt="${PEOPLE_DATA[i].name}">
+          <div class="overlay">
+            <div class="text">${PEOPLE_DATA[i].name}</div>
+          </div>
         </div>
+        <p class="mobile-only">${PEOPLE_DATA[i].name}</p>
       </div>
       `);
   }
-  return htmlfun;
-
 
 }
-
-
-function addPeopleHtml() {
-  $('main').find('#peopleGrid').append(renderPeople(PEOPLE_DATA));
-}
-
 
 
 function init() {

@@ -271,6 +271,8 @@ a {
 
 /* Text over an images */
 
+.person-card p.mobile-only { text-align: center;}
+
 .people {
     display: grid;
     grid-template-columns:
@@ -285,25 +287,25 @@ a {
         position: relative;
         width: 150px;
         margin: auto;
-    }
-    .person img {
-        border-radius: 50%;
-        width: 150px;
-        height: auto;
-        display: block;
-    }
-
-    .person .overlay {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      width: 150px;
-      opacity: 0;
-      transition: .5s ease;
-      background-color: #00877E;
-      border-radius:50%;
+        p { text-align: center;}
+        img {
+            border-radius: 50%;
+            width: 150px;
+            height: auto;
+            display: block;
+        }
+        .overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          width: 150px;
+          opacity: 0;
+          transition: .5s ease;
+          background-color: #00877E;
+          border-radius:50%;
+        }
     }
 
     .person:hover .overlay {
@@ -323,13 +325,7 @@ a {
     }
 }
 
-
-
-
-
-
 /* END OF Text over an images */
-
 
 
 
@@ -339,6 +335,7 @@ a {
 
 
 @media only screen and (min-width: 768px) {
+    .mobile-only {display: none;}
     header.branding {
         grid-template-columns: 1fr 4fr;
     }

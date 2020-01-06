@@ -273,6 +273,10 @@ a :hover {
 }
 
 /* Text over an images */
+.person-card p.mobile-only {
+  text-align: center;
+}
+
 .people {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -286,6 +290,9 @@ a :hover {
   position: relative;
   width: 150px;
   margin: auto;
+}
+.people .person p {
+  text-align: center;
 }
 .people .person img {
   border-radius: 50%;
@@ -330,6 +337,10 @@ a :hover {
 
 /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block. */
 @media only screen and (min-width: 768px) {
+  .mobile-only {
+    display: none;
+  }
+
   header.branding {
     grid-template-columns: 1fr 4fr;
   }
