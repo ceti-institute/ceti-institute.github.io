@@ -267,6 +267,72 @@ a {
     font-size: 20px;
 }
 
+
+
+/* Text over an images */
+
+.people {
+    display: grid;
+    grid-template-columns:
+    repeat(auto-fill, minmax(200px,
+    1fr));
+    grid-gap: 1em;
+    margin: 80px 40px;
+    .section-head {
+        grid-column: 1 / -1;
+    }
+    .person {
+        position: relative;
+        width: 150px;
+        margin: auto;
+    }
+    .person img {
+        border-radius: 50%;
+        width: 150px;
+        height: auto;
+        display: block;
+    }
+
+    .person .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 150px;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: #00877E;
+      border-radius:50%;
+    }
+
+    .person:hover .overlay {
+      opacity: 1;
+    }
+
+    .person .text {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+}
+
+
+
+
+
+
+/* END OF Text over an images */
+
+
+
+
 /* MAILCHIMP STYLES */
 #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block. */
