@@ -41,7 +41,7 @@ p {
 	padding-bottom: 40px;
     div {
         padding: 80px 0;
-        width: 60%;
+        width: 90%;
         margin: auto;
     }
 }
@@ -82,7 +82,7 @@ header.branding {
 
 .wlf-link {
     div {
-        width: 60%;
+        width: 90%;
         margin: auto;
     }
     background-image: url('../wlf2020/images/banner.jpg');
@@ -400,6 +400,17 @@ a {
         padding: 2em 0 6em 0;
         h2 {font-size: 3em;}
     }
+    .about {
+        div {
+            padding: 80px 0;
+            width: 80%;
+        }
+    }
+    .wlf-link {
+        div {
+            width: 60%;
+        }
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -413,4 +424,10 @@ a {
 		font-size: 2rem;
 		margin-bottom: 1rem;
 	}
+    .about {
+        div {
+            padding: 80px 0;
+            width: 60%;
+        }
+    }
 }

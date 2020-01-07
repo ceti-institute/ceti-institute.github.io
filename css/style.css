@@ -43,7 +43,7 @@ p {
 }
 .about div {
   padding: 80px 0;
-  width: 60%;
+  width: 90%;
   margin: auto;
 }
 
@@ -87,7 +87,7 @@ header.branding #logo {
   padding: 4em 0;
 }
 .wlf-link div {
-  width: 60%;
+  width: 90%;
   margin: auto;
 }
 .wlf-link h2 {
@@ -414,6 +414,15 @@ a :hover {
   .wlf-link h2 {
     font-size: 3em;
   }
+
+  .about div {
+    padding: 80px 0;
+    width: 80%;
+  }
+
+  .wlf-link div {
+    width: 60%;
+  }
 }
 @media only screen and (min-width: 1024px) {
   .bang {
@@ -425,6 +434,11 @@ a :hover {
   .cta h3 {
     font-size: 2rem;
     margin-bottom: 1rem;
+  }
+
+  .about div {
+    padding: 80px 0;
+    width: 60%;
   }
 }
 
