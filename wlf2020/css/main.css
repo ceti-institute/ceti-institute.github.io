@@ -67,6 +67,13 @@ img {
   background-color: #2c2b2f;
   color: white;
   justify-content: center;
+  position: relative;
+}
+.hackathon__header .logo {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  width: 80px;
 }
 .hackathon__header--full {
   height: 500px;
