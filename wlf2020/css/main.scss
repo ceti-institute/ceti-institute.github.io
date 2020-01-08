@@ -1,7 +1,8 @@
 $color--active: #fd9200;
 $color--black: #2c2b2f;
 $color--body: lighten(black, 15%);
-
+$color--primary: #00877E;
+$color--secondary: #fd9200;
 //MEDIA QUERIES
 
 //MEDIA QUERIES
@@ -70,7 +71,7 @@ ul {
 
 a {
   text-decoration: underline;
-  color: $color--body;
+  color: $color--primary;
   transition: color 250ms linear;
   &:hover {
     color: $color--active;
@@ -98,6 +99,37 @@ img {
   font-size: 20px;
 }
 
+.button {
+  color: #00877E;
+  border: 1px solid #00877E;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 0;
+  :hover {
+      border-color: $color--secondary;
+      color: $color--secondary;
+  }
+}
+.wlflogo {
+  margin-top: 26px;
+}
+.location {margin: 40px 0;}
+.location__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  li {
+    text-align: center;
+    font-size: 14px;
+  }
+  img {
+    padding: 6px;
+    border: 1px solid #333;
+
+  }
+  :hover { border-color: #fd9200;}
+}
 .hackathon {
   &__header {
     display: flex;
@@ -172,7 +204,7 @@ img {
   &__section {
     max-width: 1000px;
     width: 100%;
-    padding: 40px 0;
+    padding: 40px 20px;
   }
   &__section_title {
     font-size: 14px;
@@ -360,6 +392,14 @@ img {
 }
 
 @include mq--mobile() {
+  .location__list {
+    display: block;
+    width: 80%;
+    margin: auto;
+    li {
+      margin-bottom: 20px;
+    }
+  }
   .hackathon {
     &__header--full {
       height: 300px;

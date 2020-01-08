@@ -34,7 +34,7 @@ ul {
 
 a {
   text-decoration: underline;
-  color: #262626;
+  color: #00877E;
   transition: color 250ms linear;
 }
 a:hover {
@@ -60,6 +60,44 @@ img {
 .logotype {
   font-family: "Ubuntu", sans-serif;
   font-size: 20px;
+}
+
+.button {
+  color: #00877E;
+  border: 1px solid #00877E;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 0;
+}
+.button :hover {
+  border-color: #fd9200;
+  color: #fd9200;
+}
+
+.wlflogo {
+  margin-top: 26px;
+}
+
+.location {
+  margin: 40px 0;
+}
+
+.location__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.location__list li {
+  text-align: center;
+  font-size: 14px;
+}
+.location__list img {
+  padding: 6px;
+  border: 1px solid #333;
+}
+.location__list :hover {
+  border-color: #fd9200;
 }
 
 .hackathon__header {
@@ -134,7 +172,7 @@ img {
 .hackathon__section {
   max-width: 1000px;
   width: 100%;
-  padding: 40px 0;
+  padding: 40px 20px;
 }
 .hackathon__section_title {
   font-size: 14px;
@@ -314,6 +352,15 @@ img {
 }
 
 @media only screen and (max-width: 667px), (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .location__list {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .location__list li {
+    margin-bottom: 20px;
+  }
+
   .hackathon__header--full {
     height: 300px;
   }

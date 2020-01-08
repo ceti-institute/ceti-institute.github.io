@@ -1,3 +1,6 @@
+$color--primary: #00877E;
+$color--secondary: #fd9200;
+
 * {
 	box-sizing: border-box;
 }
@@ -43,6 +46,16 @@ p {
     div {
         padding: 80px 0;
         width: 90%;
+        margin: auto;
+    }
+}
+
+.contributors {
+    padding: 80px 0;
+    background: rgb(0,135,126);
+    background: linear-gradient(90deg, rgba(255,255,255,0.1) 0%, rgba(0,135,126,0.3) 100%);
+    p {
+        width: 80%;
         margin: auto;
     }
 }
@@ -135,7 +148,6 @@ a {
 	text-decoration: none;
 	display: inline-block;
 	margin-top: 0;
-    
 }
 .button:hover {
         border-color: #fd9200;
@@ -416,6 +428,9 @@ a {
             width: 60%;
         }
     }
+    .contributors {
+        p { width: 60%;}
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -434,5 +449,8 @@ a {
             padding: 80px 0;
             width: 60%;
         }
+    }
+    .contributors {
+        p { width: 40%;}
     }
 }
