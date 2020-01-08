@@ -69,6 +69,7 @@ img {
   text-decoration: none;
   display: inline-block;
   margin-top: 0;
+  margin-bottom: 16px;
 }
 .button :hover {
   border-color: #fd9200;
