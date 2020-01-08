@@ -11,7 +11,7 @@ $mq__max_width--tablet: 1024px;
 $mq__max_width--desktop: 1600px;
 
 @mixin mq--mobile {
-  @media only screen and (max-device-width: $mq__max_width--mobile),
+  @media only screen and (max-width: $mq__max_width--mobile),
     (max-device-width: $mq__max_width--mobile_dpr3) and (-webkit-device-pixel-ratio: 3) {
     @content;
   }
@@ -361,8 +361,18 @@ img {
 
 @include mq--mobile() {
   .hackathon {
+    &__header--full {
+      height: 300px;
+    }
     &__subtitle {
       font-size: 30px;
+    }
+    &__partners_list {
+      display: block;
+      justify-content: center;
+    }
+    &__partner_item {
+      margin: 30px auto;
     }
     &__title {
       font-size: 18px;

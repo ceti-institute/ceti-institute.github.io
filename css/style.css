@@ -30,9 +30,10 @@ p {
 }
 
 .hero {
-  background-image: url("../images/backgrounds/skyline.png");
+  background-image: url("../images/backgrounds/skyline-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 0 20px;
   height: 300px;
   margin-top: -64px;
 }
@@ -339,6 +340,11 @@ a :hover {
 @media only screen and (min-width: 768px) {
   .mobile-only {
     display: none;
+  }
+
+  .hero {
+    background-image: url("../images/backgrounds/skyline.png");
+    background-position: 0 0;
   }
 
   header.branding {

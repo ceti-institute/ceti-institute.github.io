@@ -313,9 +313,19 @@ img {
   margin-left: 0;
 }
 
-@media only screen and (max-device-width: 667px), (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (max-width: 667px), (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .hackathon__header--full {
+    height: 300px;
+  }
   .hackathon__subtitle {
     font-size: 30px;
+  }
+  .hackathon__partners_list {
+    display: block;
+    justify-content: center;
+  }
+  .hackathon__partner_item {
+    margin: 30px auto;
   }
   .hackathon__title {
     font-size: 18px;
