@@ -10,7 +10,7 @@
 
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: #262626;
   font-size: 20px;
 }
@@ -274,7 +274,7 @@ img {
   font-size: 30px;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: "colfax", sans-serif;
+  font-family: "Source Sans", sans-serif;
 }
 .hackathon__participants_list {
   margin-top: 20px;

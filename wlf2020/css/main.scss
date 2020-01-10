@@ -31,7 +31,7 @@ $mq__max_width--desktop: 1600px;
 }
 
 @mixin headline() {
-  font-family: "colfax", sans-serif;
+  font-family: "Source Sans", sans-serif;
 }
 
 @font-face {
@@ -47,7 +47,7 @@ $mq__max_width--desktop: 1600px;
 
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: $color--body;
   font-size: 20px;
 }
