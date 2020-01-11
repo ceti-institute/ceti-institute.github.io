@@ -21,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Source Code Pro", sans-serif;
   text-transform: uppercase;
   margin: 0;
   font-weight: 700;
@@ -274,7 +274,7 @@ img {
   font-size: 30px;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: "Source Sans", sans-serif;
+  font-family: "Source Code Pro", sans-serif;
 }
 .hackathon__participants_list {
   margin-top: 20px;
@@ -350,6 +350,14 @@ img {
 }
 .hackathon__legal_item:first-child {
   margin-left: 0;
+}
+
+.last, .last:hover {
+  border-color: #fff;
+}
+
+.stacks {
+  background-color: #000;
 }
 
 @media only screen and (max-width: 667px), (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
