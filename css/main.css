@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #2a2a2a;
 }
 
@@ -17,10 +17,6 @@ h1, h2 {
   font-weight: 700;
 }
 
-.about h2 {
-  font-size: 36px;
-}
-
 .wlf-link h2 {
   text-transform: uppercase;
 }
@@ -30,7 +26,6 @@ h3, h4, h5 {
 }
 
 h1 {
-  font-family: "Source Code Pro", sans-serif;
   font-size: 4em;
 }
 
@@ -52,7 +47,7 @@ p {
   padding-bottom: 40px;
 }
 .about div {
-  padding: 40px 0;
+  padding: 80px 0;
   width: 90%;
   margin: auto;
 }
@@ -88,7 +83,7 @@ img {
 
 header.branding #logo {
   width: 100px;
-  padding: 40px 0 0 20px;
+  padding: 20px 0 0 20px;
 }
 
 .wlf {
@@ -112,7 +107,7 @@ header.branding #logo {
 }
 .wlf-link h2 {
   margin-bottom: 0;
-  font-size: 2.2em;
+  font-size: 2.4em;
   color: #fff;
 }
 .wlf-link h3 {
@@ -374,13 +369,6 @@ a :hover {
     font-size: 6em;
   }
 
-  .about h2 {
-    font-size: 42px;
-  }
-  .about div {
-    padding: 80px 0;
-  }
-
   .bang {
     width: 520px;
     top: -120px;
@@ -482,4 +470,4 @@ a :hover {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */

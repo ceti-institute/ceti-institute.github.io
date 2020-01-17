@@ -31,7 +31,7 @@ $mq__max_width--desktop: 1600px;
 }
 
 @mixin headline() {
-  font-family: "Source Sans", sans-serif;
+  font-family: "Source Code Pro", sans-serif;
 }
 
 @font-face {
@@ -58,7 +58,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family:'Ubuntu', sans-serif;
+  font-family:'Source Code Pro', sans-serif;
   text-transform: uppercase;
   margin: 0;
   font-weight: 700;
@@ -392,6 +392,10 @@ img {
   }
 }
 
+.last, .last:hover {
+  border-color: #fff;
+}
+.stacks {background-color: #000}
 @include mq--mobile() {
   .location__list {
     display: block;
