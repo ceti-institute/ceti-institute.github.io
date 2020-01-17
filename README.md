@@ -50,4 +50,4 @@ For projects, both a thumbnail (~300px w) and large image (~1000px w) should be 
 
 **Generating a Fresh Participants Feed**
 
-To more easily re-generate the participants feed, you can export the Google spreadsheet as JSON, and paste / drag the file [into here](https://www.csvjson.com/csv2json), then copy the resulting JSON as the value of the `participants` key in the `data.js` file.
+To more easily re-generate the participants feed, you can export the Google spreadsheet as CSV, and paste / drag the file [into here](https://www.csvjson.com/csv2json), then copy the resulting JSON as the value of the `participants` key in the `data.js` file.

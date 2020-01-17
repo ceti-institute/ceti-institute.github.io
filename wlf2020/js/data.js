@@ -136,7 +136,6 @@ SITE_DATA = {
       "email": "dinasage@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Alan",
@@ -144,15 +143,13 @@ SITE_DATA = {
       "email": "sic.redacted@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "alanna",
       "Last Name": "risse",
       "email": "alanna@alannarisse.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
+      "Instagram": "alannarisse",
+      "Webpage": "http://alannarisse.com",
     },
     {
       "First Name": "alex",
@@ -160,7 +157,6 @@ SITE_DATA = {
       "email": "alex@invisiblethread.co",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Ali",
@@ -168,7 +164,6 @@ SITE_DATA = {
       "email": "ameechoovet@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Amy",
@@ -176,7 +171,6 @@ SITE_DATA = {
       "email": "meyer.a.x@live.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": "will help with projects"
     },
     {
       "First Name": "Andrew",
@@ -184,15 +178,6 @@ SITE_DATA = {
       "email": "andrew.kreps@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "anselm",
-      "Last Name": "hook",
-      "email": "anselm@hook.org",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Armon",
@@ -200,7 +185,6 @@ SITE_DATA = {
       "email": "armon@uvw.studio",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Ashlin",
@@ -208,7 +192,6 @@ SITE_DATA = {
       "email": "ashlinaronin@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Audrey",
@@ -216,7 +199,6 @@ SITE_DATA = {
       "email": "audgepoge@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "bennett",
@@ -224,7 +206,6 @@ SITE_DATA = {
       "email": "bb@grainyworld.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Bernado",
@@ -232,7 +213,6 @@ SITE_DATA = {
       "email": "hologramfields@gmail.com",
       "Instagram": "",
       "Webpage": "hologramfields.myportfolio.com",
-      "Notes": ""
     },
     {
       "First Name": "Bradley",
@@ -240,7 +220,6 @@ SITE_DATA = {
       "email": "brad@theappguy.guru",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Brendan",
@@ -248,7 +227,6 @@ SITE_DATA = {
       "email": "brendanjones.pdxdfv@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Cailin",
@@ -256,15 +234,6 @@ SITE_DATA = {
       "email": "cwc2@pdx.edu",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Cat",
-      "Last Name": "Nostrand",
-      "email": "cnostrand@pps.net",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Catherine",
@@ -272,15 +241,13 @@ SITE_DATA = {
       "email": "catrossart@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Connor",
       "Last Name": "Seymour",
       "email": "cstockton@reed.edu",
-      "Instagram": "emoticontent, cstockt",
+      "Instagram": "emoticontent",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Conrad",
@@ -288,7 +255,6 @@ SITE_DATA = {
       "email": "conradkaczor@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Damien",
@@ -296,7 +262,6 @@ SITE_DATA = {
       "email": "ddawahare@gmail.com",
       "Instagram": "thepaintedhead",
       "Webpage": "thepaintedhead.com",
-      "Notes": ""
     },
     {
       "First Name": "Dan",
@@ -304,7 +269,6 @@ SITE_DATA = {
       "email": "ddxgood@gmail.com",
       "Instagram": "",
       "Webpage": "www.dangood.org",
-      "Notes": ""
     },
     {
       "First Name": "Danny",
@@ -312,7 +276,6 @@ SITE_DATA = {
       "email": "djnorto@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Darrell",
@@ -320,15 +283,20 @@ SITE_DATA = {
       "email": "darrell.rossman@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "elyssa",
       "Last Name": "Kelly",
-      "email": "ELYSSAKELLY@yahoo.COM",
+      "email": "elyssakelly@yahoo.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
+    },
+    {
+      "First Name": "Emily",
+      "Last Name": "Katz",
+      "email": "em323ily@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
     },
     {
       "First Name": "Francesca",
@@ -336,7 +304,6 @@ SITE_DATA = {
       "email": "francesca.frattaroli@pcc.edu",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Giannini",
@@ -344,7 +311,6 @@ SITE_DATA = {
       "email": "g.anahi.v@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Hilary",
@@ -352,7 +318,6 @@ SITE_DATA = {
       "email": "htsai@pnca.edu",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Hugo",
@@ -360,7 +325,6 @@ SITE_DATA = {
       "email": "hugoplho@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Humaira",
@@ -368,7 +332,6 @@ SITE_DATA = {
       "email": "humairatasneem8@gmail.com",
       "Instagram": "humairatasneem",
       "Webpage": "www.humairatasneem.com",
-      "Notes": ""
     },
     {
       "First Name": "Jack",
@@ -376,7 +339,6 @@ SITE_DATA = {
       "email": "mojohale.j@gmail.com",
       "Instagram": "mojohale_Industry",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Jack",
@@ -384,7 +346,6 @@ SITE_DATA = {
       "email": "jackstringer@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Jacob",
@@ -392,7 +353,13 @@ SITE_DATA = {
       "email": "richman.jacob@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
+    },
+    {
+      "First Name": "Jeffrey",
+      "Last Name": "Dinsmore",
+      "email": "jmd.smore@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
     },
     {
       "First Name": "Jen",
@@ -400,7 +367,13 @@ SITE_DATA = {
       "email": "jentamforever@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
+    },
+    {
+      "First Name": "Jesse",
+      "Last Name": "England",
+      "email": "jesse.england@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
     },
     {
       "First Name": "Jessica",
@@ -408,7 +381,6 @@ SITE_DATA = {
       "email": "jessica@metroeast.org",
       "Instagram": "lonesomejessjr",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Jo",
@@ -416,7 +388,6 @@ SITE_DATA = {
       "email": "joannlundberg@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "john",
@@ -424,7 +395,6 @@ SITE_DATA = {
       "email": "thisisjohnbrown@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "John",
@@ -432,7 +402,6 @@ SITE_DATA = {
       "email": "john.farrell@instrument.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "joseph",
@@ -440,7 +409,6 @@ SITE_DATA = {
       "email": "joseph.wells.portland@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Justin",
@@ -448,7 +416,13 @@ SITE_DATA = {
       "email": "justin.m.patrizi@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
+    },
+    {
+      "First Name": "Kelly",
+      "Last Name": "Young",
+      "email": "kelly.young@autodesk.com",
+      "Instagram": "",
+      "Webpage": "",
     },
     {
       "First Name": "Kevin",
@@ -456,7 +430,6 @@ SITE_DATA = {
       "email": "kevinleemusic@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Laurel",
@@ -464,383 +437,6 @@ SITE_DATA = {
       "email": "laurel@designlaurels.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Luces",
-      "Last Name": "Huayhuaca Lambert",
-      "email": "luces.huayhuaca@gmail.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Lucy",
-      "Last Name": "Hashizume",
-      "email": "lamoorepdx@gmail.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Mars",
-      "Last Name": "Castro",
-      "email": "marielacastro91@gmail.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "mary",
-      "Last Name": "weisenberger",
-      "email": "mareweisey@gmail.com",
-      "Instagram": "alien.burger",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Matthew",
-      "Last Name": "Sottile",
-      "email": "mjsottile@me.com",
-      "Instagram": "",
-      "Webpage": "syntacticsalt.com",
-      "Notes": ""
-    },
-    {
-      "First Name": "Maxwell",
-      "Last Name": "Ettell",
-      "email": "hello@maxettel.com",
-      "Instagram": "max_ettel",
-      "Webpage": "maxettel.com",
-      "Notes": ""
-    },
-    {
-      "First Name": "Mia",
-      "Last Name": "Dorsey",
-      "email": "miacdorsey@gmail.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Michael",
-      "Last Name": "Fanuzzi",
-      "email": "michael@fanuzzi.com",
-      "Instagram": "",
-      "Webpage": "lazerbea.ms",
-      "Notes": ""
-    },
-    {
-      "First Name": "miguel",
-      "Last Name": "higgins moy",
-      "email": "mhigginsmoy@gmail.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Mike",
-      "Last Name": "Baran",
-      "email": "michael.l.baran@gmail.com",
-      "Instagram": "",
-      "Webpage": "MLBaran.com",
-      "Notes": ""
-    },
-    {
-      "First Name": "mike",
-      "Last Name": "heavers",
-      "email": "mheavers@gmail.com",
-      "Instagram": "leaveittoheavers",
-      "Webpage": "mikeheavers.com",
-      "Notes": ""
-    },
-    {
-      "First Name": "Nandini",
-      "Last Name": "Ranganathan",
-      "email": "nandini@ceti.institute",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": "logistics support"
-    },
-    {
-      "First Name": "Nick",
-      "Last Name": "Rivas",
-      "email": "rivas.nicholas@gmail.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Nicole",
-      "Last Name": "Cousineau",
-      "email": "nicolecous@gmail.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "nyssa",
-      "Last Name": "oru",
-      "email": "nyssaoru@gmail.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Pat",
-      "Last Name": "Jagla",
-      "email": "partyonmarz@gmail.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Paul",
-      "Last Name": "Stoffregen",
-      "email": "paul@pjrc.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": "project support"
-    },
-    {
-      "First Name": "reese",
-      "Last Name": "bowes",
-      "email": "reesebowes@gmail.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Reid",
-      "Last Name": "Beels",
-      "email": "mail@reidbeels.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Rihards",
-      "Last Name": "Vitols",
-      "email": "vitols.rihards@gmail.com",
-      "Instagram": "",
-      "Webpage": "vitols.xyz",
-      "Notes": ""
-    },
-    {
-      "First Name": "Rolly",
-      "Last Name": "Seth",
-      "email": "rolly.seth@gmail.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Ron",
-      "Last Name": "Braithwaite",
-      "email": "ron@metroeast.org",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Sam",
-      "Last Name": "Mendoza",
-      "email": "stephanie.mendoza2@pcc.edu",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Sara",
-      "Last Name": "Mathew",
-      "email": "sairawn@gmail.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Sarah",
-      "Last Name": "Bailey",
-      "email": "sbailey@pnca.edu",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Scott",
-      "Last Name": "Garner",
-      "email": "scott@j38.net",
-      "Instagram": "",
-      "Webpage": "scottmadethis.net",
-      "Notes": ""
-    },
-    {
-      "First Name": "Scott",
-      "Last Name": "King",
-      "email": "sking@pnca.edu",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "scott",
-      "Last Name": "nieradka",
-      "email": "scottnieradka@gmail.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Sean",
-      "Last Name": "Forsythe",
-      "email": "Sean.Forsythe@gmail.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Shana",
-      "Last Name": "Palmer",
-      "email": "beverlyshana@gmail.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Sophia",
-      "Last Name": "Emigh",
-      "email": "sophia.emigh@gmail.com",
-      "Instagram": "solasoph",
-      "Webpage": "www.sophiaephotography.com",
-      "Notes": ""
-    },
-    {
-      "First Name": "Stephanie",
-      "Last Name": "Fogel",
-      "email": "sfogel@pnca.edu",
-      "Instagram": "artnerdforever",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Stephanie",
-      "Last Name": "Freund",
-      "email": "freund.steph@gmail.com",
-      "Instagram": "",
-      "Webpage": "www.stephaniefreund.com",
-      "Notes": ""
-    },
-    {
-      "First Name": "Stephanie",
-      "Last Name": "jemiola",
-      "email": "sjemiola@pnca.edu",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Stephen",
-      "Last Name": "Lee",
-      "email": "jstephenlee@gmail.com",
-      "Instagram": "j_stephen_lee",
-      "Webpage": "jstephenlee.com",
-      "Notes": ""
-    },
-    {
-      "First Name": "Taylor",
-      "Last Name": "Hammes",
-      "email": "taylorhammes@gmail.com",
-      "Instagram": "taylor_aurora_",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Thomas",
-      "Last Name": "Lodato",
-      "email": "tlodato@mozilla.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Todd",
-      "Last Name": "Greco",
-      "email": "mrballistic@gmail.com",
-      "Instagram": "",
-      "Webpage": "http://alannarisse.com",
-      "Notes": ""
-    },
-    {
-      "First Name": "Tom",
-      "Last Name": "Flynn",
-      "email": "tom_flynn@gmail.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Whitney",
-      "Last Name": "Mokler",
-      "email": "wmokler@pdx.edu",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Yadira",
-      "Last Name": "Valadez",
-      "email": "yadivaladez@gmail.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Yori",
-      "Last Name": "Kvitchko",
-      "email": "yori.kvitchko@gmail.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "Zack",
-      "Last Name": "Marlow",
-      "email": "zackmarlow@gmail.com",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "",
-      "Last Name": "Sparkman",
-      "email": "sparkman@pdx.edu",
-      "Instagram": "its_sparkman",
-      "Webpage": "sparkmandesign.net",
-      "Notes": ""
-    },
-    {
-      "First Name": "",
-      "Last Name": "",
-      "email": "",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "",
-      "Last Name": "",
-      "email": "",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
-    },
-    {
-      "First Name": "",
-      "Last Name": "",
-      "email": "",
-      "Instagram": "",
-      "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Libby",
@@ -848,7 +444,321 @@ SITE_DATA = {
       "email": "bravolibby@gmail.com",
       "Instagram": "",
       "Webpage": "",
-      "Notes": ""
+    },
+    {
+      "First Name": "Luces",
+      "Last Name": "Huayhuaca Lambert",
+      "email": "luces.huayhuaca@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Lucy",
+      "Last Name": "Hashizume",
+      "email": "lamoorepdx@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Mars",
+      "Last Name": "Castro",
+      "email": "marielacastro91@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Matthew",
+      "Last Name": "Sottile",
+      "email": "mjsottile@me.com",
+      "Instagram": "",
+      "Webpage": "syntacticsalt.com",
+    },
+    {
+      "First Name": "Maxwell",
+      "Last Name": "Ettell",
+      "email": "hello@maxettel.com",
+      "Instagram": "max_ettel",
+      "Webpage": "maxettel.com",
+    },
+    {
+      "First Name": "Mia",
+      "Last Name": "Dorsey",
+      "email": "miacdorsey@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Michael",
+      "Last Name": "Condon",
+      "email": "sgtkashim@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Michael",
+      "Last Name": "Fanuzzi",
+      "email": "michael@fanuzzi.com",
+      "Instagram": "",
+      "Webpage": "lazerbea.ms",
+    },
+    {
+      "First Name": "miguel",
+      "Last Name": "higgins moy",
+      "email": "mhigginsmoy@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Mike",
+      "Last Name": "Baran",
+      "email": "michael.l.baran@gmail.com",
+      "Instagram": "",
+      "Webpage": "MLBaran.com",
+    },
+    {
+      "First Name": "mike",
+      "Last Name": "heavers",
+      "email": "mheavers@gmail.com",
+      "Instagram": "leaveittoheavers",
+      "Webpage": "mikeheavers.com",
+    },
+    {
+      "First Name": "Nandini",
+      "Last Name": "Ranganathan",
+      "email": "nandini@ceti.institute",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Nick",
+      "Last Name": "Rivas",
+      "email": "rivas.nicholas@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Nicole",
+      "Last Name": "Cousineau",
+      "email": "nicolecous@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Nikki",
+      "Last Name": "Sato",
+      "email": "nikki.satopdx@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "nyssa",
+      "Last Name": "oru",
+      "email": "nyssaoru@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Pat",
+      "Last Name": "Jagla",
+      "email": "partyonmarz@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Paul",
+      "Last Name": "Stoffregen",
+      "email": "paul@pjrc.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "reese",
+      "Last Name": "bowes",
+      "email": "reesebowes@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Reid",
+      "Last Name": "Beels",
+      "email": "mail@reidbeels.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Rihards",
+      "Last Name": "Vitols",
+      "email": "vitols.rihards@gmail.com",
+      "Instagram": "",
+      "Webpage": "vitols.xyz",
+    },
+    {
+      "First Name": "Rolly",
+      "Last Name": "Seth",
+      "email": "rolly.seth@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Sam",
+      "Last Name": "Mendoza",
+      "email": "stephanie.mendoza2@pcc.edu",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Sara",
+      "Last Name": "Mathew",
+      "email": "sairawm@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Sarah",
+      "Last Name": "Bailey",
+      "email": "sbailey@pnca.edu",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Scott",
+      "Last Name": "Garner",
+      "email": "scott@j38.net",
+      "Instagram": "",
+      "Webpage": "scottmadethis.net",
+    },
+    {
+      "First Name": "Scott",
+      "Last Name": "King",
+      "email": "sking@pnca.edu",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "scott",
+      "Last Name": "nieradka",
+      "email": "scottnieradka@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Sean",
+      "Last Name": "Forsythe",
+      "email": "Sean.Forsythe@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Sophia",
+      "Last Name": "Emigh",
+      "email": "sophia.emigh@gmail.com",
+      "Instagram": "solasoph",
+      "Webpage": "www.sophiaephotography.com",
+    },
+    {
+      "First Name": "Stephanie",
+      "Last Name": "jemiola",
+      "email": "sjemiola@pnca.edu",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Stephen",
+      "Last Name": "Lee",
+      "email": "jstephenlee@gmail.com",
+      "Instagram": "j_stephen_lee",
+      "Webpage": "jstephenlee.com",
+    },
+    {
+      "First Name": "Thomas",
+      "Last Name": "Lodato",
+      "email": "tlodato@mozilla.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Tim",
+      "Last Name": "Ledwith",
+      "email": "timothyledwith@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Todd",
+      "Last Name": "Greco",
+      "email": "mrballistic@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Tom",
+      "Last Name": "Flynn",
+      "email": "tom_flynn@ziba.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Victoria",
+      "Last Name": "martinez",
+      "email": "vmartinez72.vm@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Yadira",
+      "Last Name": "Valadez",
+      "email": "yadivaladez@gmail.com",
+      "Instagram": "Bcc",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Yori",
+      "Last Name": "Kvitchko",
+      "email": "yori.kvitchko@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Zack",
+      "Last Name": "Marlow",
+      "email": "zackmarlow@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Zak",
+      "Last Name": "Stone",
+      "email": "stonezak@pdx.edu",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "",
+      "Last Name": "Sparkman",
+      "email": "sparkman@pdx.edu",
+      "Instagram": "its_sparkman",
+      "Webpage": "sparkmandesign.net",
+    },
+    {
+      "First Name": "",
+      "Last Name": "",
+      "email": "",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "",
+      "Last Name": "",
+      "email": "",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "anselm",
+      "Last Name": "hook",
+      "email": "anselm@hook.org",
+      "Instagram": "",
+      "Webpage": "",
     },
     {
       "First Name": "Lindsay",
@@ -856,7 +766,13 @@ SITE_DATA = {
       "email": "hi@nofontsgiven.co",
       "Instagram": "",
       "Webpage": "",
-      "Notes": "busy"
+    },
+    {
+      "First Name": "mary",
+      "Last Name": "weisenberger",
+      "email": "mareweisey@gmail.com",
+      "Instagram": "alien.burger",
+      "Webpage": "",
     },
     {
       "First Name": "Preet",
@@ -864,7 +780,6 @@ SITE_DATA = {
       "email": "preet@preetgujral.com",
       "Instagram": "preetmonster",
       "Webpage": "",
-      "Notes": ""
     },
     {
       "First Name": "Sam",
@@ -872,7 +787,62 @@ SITE_DATA = {
       "email": "hickssam@pdx.edu",
       "Instagram": "",
       "Webpage": "societyofgritandgrease.com",
-      "Notes": ""
+    },
+    {
+      "First Name": "Ron",
+      "Last Name": "Braithwaite",
+      "email": "ron@metroeast.org",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Taylor",
+      "Last Name": "Hammes",
+      "email": "taylorhammes@gmail.com",
+      "Instagram": "taylor_aurora_",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Whitney",
+      "Last Name": "Mokler",
+      "email": "wmokler@pdx.edu",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Stephanie",
+      "Last Name": "Fogel",
+      "email": "sfogel@pnca.edu",
+      "Instagram": "artnerdforever",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Stephanie",
+      "Last Name": "Freund",
+      "email": "freund.steph@gmail.com",
+      "Instagram": "",
+      "Webpage": "www.stephaniefreund.com",
+    },
+    {
+      "First Name": "Marisa",
+      "Last Name": "Morby",
+      "email": "me@marisamorby.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Shana",
+      "Last Name": "Palmer",
+      "email": "beverlyshana@gmail.com",
+      "Instagram": "",
+      "Webpage": "",
+    },
+    {
+      "First Name": "Cat",
+      "Last Name": "Nostrand",
+      "email": "cnostrand@pps.net",
+      "Instagram": "",
+      "Webpage": "",
     }
   ]
 }
