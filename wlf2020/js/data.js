@@ -733,25 +733,11 @@ SITE_DATA = {
       "Webpage": "",
     },
     {
-      "First Name": "",
+      "First Name": "Sparkman",
       "Last Name": "Sparkman",
       "email": "sparkman@pdx.edu",
       "Instagram": "its_sparkman",
       "Webpage": "sparkmandesign.net",
-    },
-    {
-      "First Name": "",
-      "Last Name": "",
-      "email": "",
-      "Instagram": "",
-      "Webpage": "",
-    },
-    {
-      "First Name": "",
-      "Last Name": "",
-      "email": "",
-      "Instagram": "",
-      "Webpage": "",
     },
     {
       "First Name": "anselm",
