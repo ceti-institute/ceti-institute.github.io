@@ -397,7 +397,34 @@ img {
 .last, .last:hover {
   border-color: #fff;
 }
-.stacks {background-color: #000}
+.stacks {background-color: #000;}
+
+/* carousel */
+
+
+ul.carousel {
+  width: 20em;
+  padding: 0;
+  margin: 50px auto 0;
+  border: 10px solid #fff;
+  box-shadow: 0px 2px 3px #eaeaea;
+
+}
+
+ul.carousel li {
+  background: #f7f7f7;
+  color: #ddd;
+  list-style-type: none;
+  padding: 1em;
+  margin: 0;
+  transition: background-color 0.5s;
+}
+
+ul.carousel li:nth-child(2) {
+  color: #fff;
+  // background: #1998c4;
+}
+
 @include mq--mobile() {
   .location__list {
     display: block;

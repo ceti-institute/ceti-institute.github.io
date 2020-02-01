@@ -90,3 +90,46 @@ const hackathonModule = (function () {
 }());
 
 hackathonModule.init();
+
+// carousel
+
+var x = 0,
+    carousel = $('.carousel'),
+    items = carousel.find('li'),
+    carouselHeight = 0,
+    numberVisible = 3,
+    intervalSec = 4000;
+
+if(!carousel.find('li:first').hasClass("first")){
+  carousel.find('li:first').addClass("first");
+}
+
+items.each(function(){
+  if(x < numberVisible){
+    carouselHeight = carouselHeight + $(this).outerHeight();
+    x++;
+  }
+});
+
+carousel.css({ height: carouselHeight, overflow: "hidden" });
+  
+function vertCycle() {
+  var firstItem = carousel.find('li.first').html();
+    
+  carousel.append('<li>'+firstItem+'</li>');
+  firstItem = '';
+  carousel.find('li.first').animate({ marginTop: "-50px" }, 600, function(){  $(this).remove(); carousel.find('li:first').addClass("first"); });
+}
+
+if(intervalSec < 700){
+  intervalSec = 700;
+}
+
+var init = setInterval("vertCycle()",intervalSec);
+
+carousel.hover(function(){
+  clearInterval(init);
+}, function(){
+  init = setInterval("vertCycle()",intervalSec);
+});
+
