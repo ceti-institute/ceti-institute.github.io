@@ -138,12 +138,14 @@ img {
     color: white;
     justify-content: center;
     position: relative;
-    .logo {
-      position: absolute;
-      top: 40px;
-      left: 20px;
-      width: 80px;
+    #logo {
+        width: 100px;
+        padding: 40px 0 0 20px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
     }
+
 
     &--full {
       height: 500px;

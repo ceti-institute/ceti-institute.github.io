@@ -108,11 +108,12 @@ img {
   justify-content: center;
   position: relative;
 }
-.hackathon__header .logo {
+.hackathon__header #logo {
+  width: 100px;
+  padding: 40px 0 0 20px;
   position: absolute;
-  top: 40px;
-  left: 20px;
-  width: 80px;
+  top: 0px;
+  left: 0px;
 }
 .hackathon__header--full {
   height: 500px;
