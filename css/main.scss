@@ -54,8 +54,12 @@ p {
 }
 .contributors {
     padding: 80px 0;
-    background: rgb(0,135,126);
-    background: linear-gradient(90deg, rgba(239, 230, 215, 0.4) 0%, rgba(0,135,126,0.3) 100%);
+    color: #fff;
+    // background: rgb(0,135,126);
+    // background: linear-gradient(90deg, rgba(239, 230, 215, 0.4) 0%, rgba(0,135,126,0.3) 100%);
+    background: rgb(51,40,128);
+    background: linear-gradient(90deg, rgba(37, 29, 92, 0.9) 0%, rgba(151,138,208,0.8) 100%);
+
     p {
         width: 80%;
         margin: auto;
@@ -151,6 +155,29 @@ a {
         border-color: #fd9200;
         color: #fd9200;
     }
+
+.events {
+    background-image: url('../images/backgrounds/annie-spratt-0ZPSX_mQ3xI-unsplash.png');
+   background-size: cover;
+   padding:80px;
+}
+
+.events .title {
+    grid-column: 1 / -1;
+}
+.events .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+}
+
+.events h4 {
+    border-bottom: 4px solid #666;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    display: inline-block;
+}
 
 #subscribe-form {
     width: 80%;
