@@ -174,7 +174,7 @@ img {
 .hackathon__section {
   width: 80%;
   margin: auto;
-  padding: 40px 20px;
+  padding: 40px 0;
 }
 .hackathon__section_title {
   font-size: 14px;
@@ -262,14 +262,14 @@ img {
 .hackathon__participants_container {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin-top: 30px;
 }
 .hackathon__participants_group {
   margin-top: 20px;
 }
 .hackathon__participants_column {
-  width: 300px;
+  min-width: 300px;
+  margin-right: 16px;
 }
 .hackathon__participants_letter {
   font-size: 30px;
@@ -477,6 +477,9 @@ img {
   }
   .hackathon__partner_item {
     margin: 30px auto;
+  }
+  .hackathon__participants_container {
+    flex-direction: column;
   }
   .hackathon__title {
     font-size: 18px;

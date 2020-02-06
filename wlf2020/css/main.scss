@@ -208,7 +208,7 @@ img {
     // max-width: 1000px;
     width: 80%;
     margin: auto;
-    padding: 40px 20px;
+    padding: 40px 0;
   }
   &__section_title {
     font-size: 14px;
@@ -303,14 +303,15 @@ img {
   &__participants_container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     margin-top: 30px;
   }
   &__participants_group {
     margin-top: 20px;
   }
   &__participants_column {
-    width: 300px;
+    min-width: 300px;
+    margin-right: 16px;
   }
   &__participants_letter {
     font-size: 30px;
@@ -502,6 +503,9 @@ img {
     }
     &__partner_item {
       margin: 30px auto;
+    }
+    &__participants_container{
+      flex-direction: column;
     }
     &__title {
       font-size: 18px;
