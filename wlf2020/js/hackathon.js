@@ -71,7 +71,7 @@ const hackathonModule = (function () {
       const $letterGroup = document.getElementById(`Participants__group--${curLetter}`);
       const $letterGroupList = $letterGroup.querySelector('.hackathon__participants_list');
       const participantNameMarkup = `<span class="hackathon__participant_name">${participantItem.name}</span>`
-      const participantLinkMarkup = participantItem.link && participantItem.link !== '' ? `<a href="${participantItem.link}">${participantNameMarkup}</a>` : participantNameMarkup; 
+      const participantLinkMarkup = participantItem.link && participantItem.link !== '' ? `<a href="${participantItem.link}" target="_blank">${participantNameMarkup}</a>` : participantNameMarkup; 
       const participantAvatar = participantItem.avatar && participantItem.avatar !== '' ? `<img src="images/participants/${participantItem.avatar}" alt="${participantItem.name}" class="hackathon__participant_image">` : `<img src="images/participants/placeholder.svg" alt="Participant Placeholder Image" class="hackathon__participant_image">`;
       const participantMarkup = `
           <li class="hackathon__participant_item" data-id="${participantItem.slug}">
