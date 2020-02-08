@@ -78,12 +78,13 @@ img {
 
 .maps__list {
   display: flex;
+  flex-direction: column;
 }
 .maps__list_item {
-  margin-left: 20px;
+  margin-top: 20px;
 }
 .maps__list_item:first-child {
-  margin-left: 0;
+  margin-top: 0;
 }
 
 .wlflogo {
@@ -382,10 +383,10 @@ img {
 }
 
 .slider-wrap .slider {
-  position: absolute;
-  width: 100%;
-  left: 0px;
-  top: 50px;
+  height: 500px;
+  position: relative;
+  margin-top: 50px;
+  overflow: hidden;
 }
 
 .slider-item {
