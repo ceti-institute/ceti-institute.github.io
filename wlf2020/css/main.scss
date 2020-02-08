@@ -112,6 +112,17 @@ img {
       color: $color--secondary;
   }
 }
+.maps {
+  &__list {
+    display: flex;
+  }
+  &__list_item {
+    margin-left: 20px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
 .wlflogo {
   margin-top: 26px;
 }

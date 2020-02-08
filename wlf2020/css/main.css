@@ -76,6 +76,16 @@ img {
   color: #fd9200;
 }
 
+.maps__list {
+  display: flex;
+}
+.maps__list_item {
+  margin-left: 20px;
+}
+.maps__list_item:first-child {
+  margin-left: 0;
+}
+
 .wlflogo {
   margin-top: 26px;
 }
