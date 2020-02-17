@@ -76,6 +76,17 @@ img {
   color: #fd9200;
 }
 
+.maps__list {
+  display: flex;
+  flex-direction: column;
+}
+.maps__list_item {
+  margin-top: 20px;
+}
+.maps__list_item:first-child {
+  margin-top: 0;
+}
+
 .wlflogo {
   margin-top: 26px;
 }
@@ -372,10 +383,10 @@ img {
 }
 
 .slider-wrap .slider {
-  position: absolute;
-  width: 100%;
-  left: 0px;
-  top: 50px;
+  height: 500px;
+  position: relative;
+  margin-top: 50px;
+  overflow: hidden;
 }
 
 .slider-item {
