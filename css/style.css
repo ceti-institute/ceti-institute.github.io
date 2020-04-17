@@ -77,6 +77,10 @@ main {
   margin: auto;
 }
 
+.device-page h1 {
+  font-size: 42px;
+}
+
 .device-page section:nth-child(1) {
   color: #fff;
   background: #332880;
