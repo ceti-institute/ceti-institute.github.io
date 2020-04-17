@@ -408,6 +408,17 @@ img {
   }
 }
 
+.project-page-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+  li {list-style-type: none;}
+  img { width: 100%;}
+}
+.project-page-intro {
+  width: 80%;
+  margin: auto;
+}
+
 .last, .last:hover {
   border-color: #fff;
 }
