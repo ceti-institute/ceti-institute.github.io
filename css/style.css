@@ -568,4 +568,8 @@ footer {
   }
 }
 
+summary > h4, summary > h3 {
+  display: inline;
+}
+
 /*# sourceMappingURL=style.css.map */
