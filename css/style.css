@@ -77,36 +77,6 @@ main {
   margin: auto;
 }
 
-.device-page h1 {
-  font-size: 42px;
-}
-
-.device-page section:nth-child(1) {
-  color: #fff;
-  background: #332880;
-  background: linear-gradient(90deg, rgba(42, 83, 87, 0.9) 0%, rgba(151, 138, 208, 0.8) 100%);
-}
-.device-page section:nth-child(1) a {
-  color: #fff;
-}
-.device-page section:nth-child(1) a:hover {
-  color: #5bb5bd;
-}
-.device-page section:nth-child(1) h3 {
-  margin: 2em 0 0 0;
-}
-
-.device-page section:nth-child(2) {
-  background: #efe6d7;
-  background: radial-gradient(circle, rgba(239, 230, 215, 0.8) 0%, rgba(239, 211, 170, 0.253019958) 58%, rgba(159, 140, 113, 0.5) 100%);
-}
-
-.device-share1 div {
-  width: 60%;
-  margin: 0 auto;
-  padding: 80px;
-}
-
 .home-page section:nth-child(1) {
   background: #efe6d7;
   background: radial-gradient(circle, rgba(239, 230, 215, 0.8) 0%, rgba(239, 211, 170, 0.253019958) 58%, rgba(159, 140, 113, 0.5) 100%);
