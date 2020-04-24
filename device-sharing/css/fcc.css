@@ -56,10 +56,10 @@
   background: linear-gradient(90deg, rgba(44, 178, 162, 0.8) 0%, rgba(27, 114, 246, 0.8) 100%);
 }
 .device-page .device-share2 a {
-  color: #22a962;
+  color: #fff;
 }
 .device-page .device-share2 a:hover {
-  color: #rgb 91, 181, 189;
+  color: #32fe94;
 }
 .device-page .device-share2 h3 {
   margin: 2em 0 0 0;

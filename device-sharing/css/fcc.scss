@@ -1,7 +1,7 @@
 /* colors */
 $color--drktheme--primary: #fff;
 $color--drktheme--hover: #32fe94;
-$color--drktheme--link: #fd9200;
+$color--drktheme--link: #fff;
 $color--lttheme--primary: #0f0b94;
 $color--lttheme--link: #22a962;
 $color--lttheme--hover: #rgb(91,181,189);
@@ -63,9 +63,9 @@ $color--lttheme--hover: #rgb(91,181,189);
         color: #fff;
         background: rgb(51,40,128);
         background: linear-gradient(90deg, rgba(44, 178, 162, 0.8) 0%, rgba(27,114,246,0.8) 100%);
-        a { color: $color--lttheme--link;}
+        a { color: $color--drktheme--link;}
         a:hover {
-            color: $color--lttheme--hover;
+            color: $color--drktheme--hover;
         }
         h3 {
             margin: 2em 0 0 0;
