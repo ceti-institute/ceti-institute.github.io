@@ -1,6 +1,11 @@
+/* Global colors */
+
 $color--primary: #00877E;
 $color--secondary: #fd9200;
 
+/* END Global colors */
+
+/* Global Styles */
 * {
 	box-sizing: border-box;
 }
@@ -34,6 +39,9 @@ h1 {
 p {
 	line-height: 1.2rem;
 }
+
+/* END Global Styles */
+
 
 .hero {
     background-image: url('../images/backgrounds/skyline-mobile.png');
