@@ -83,8 +83,13 @@ body {
 }
 
 h1, h2 {
+  font-size: 3.2rem;
+}
+h3 {
+    font-size: 2.6rem;
+}
+h1, h2 {
   font-family: "Source Code Pro", monospace;
-  font-size: 6rem;
   font-weight: 700;
   line-height: 6rem;
   color: #222;
@@ -92,7 +97,6 @@ h1, h2 {
 }
 
 h3 {
-  font-size: 3.4rem;
   line-height: 3.8rem;
   font-weight: 400;
   margin-bottom: 3rem;
@@ -120,11 +124,20 @@ p {
   color: #555;
 }
 
+footer {
+  padding: 3rem 2rem;
+}
 @media only screen and (min-width: 768px) {
+  h1, h2 {
+    font-size: 6rem;
+  }
   h3 {
     font-size: 4.4rem;
     line-height: 4.8rem;
   }
+  footer {
+  padding: 0;
+}
 }
 /* */
 /* IMAGES */
@@ -133,14 +146,31 @@ img {
 }
 
 .subpage figure {
-  height: 30rem;
+  height: 15rem;
   overflow: hidden;
 }
 .subpage figure img {
   margin-top: -4rem;
 }
 
+.subnav li {
+  whitespace: no-wrap;
+  padding-top: 6px;
+
+}
+.subnav {
+    flex-direction: column;
+    padding-left: 20px;
+}
+
 @media only screen and (min-width: 768px) {
+  .subpage figure {
+    height: 30rem;
+  }
+  .subnav{
+    flex-direction: row;
+    padding-left: 0;
+  }
   img {
     width: 100%;
   }
@@ -317,8 +347,14 @@ section.gof h1, section.gof h2, section.gof h3, section.gof h4, section.gof p {
 section.gof nav {
   background-color: #F7E332;
 }
-section.gof nav a {
+section.gof nav a{
   color: #1333D3;
+}
+section.gof a {
+  color: #fff;
+}
+section.gof a:hover {
+  color: #F7E332;
 }
 section.gof nav a:hover {
   color: #E5450A;
