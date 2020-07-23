@@ -99,8 +99,11 @@ img {
 
 header.branding {
     #logo {
-        width: 100px;
-        padding: 40px 0 0 20px;
+        width: 140px;
+        padding: 0 0 0 20px;
+        svg {
+            margin-top: -10px;
+        }
     }
 }
 

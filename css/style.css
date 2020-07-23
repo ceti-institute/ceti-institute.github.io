@@ -1,3 +1,6 @@
+/* Global colors */
+/* END Global colors */
+/* Global Styles */
 * {
   box-sizing: border-box;
 }
@@ -38,6 +41,7 @@ p {
   line-height: 1.2rem;
 }
 
+/* END Global Styles */
 .hero {
   background-image: url("../images/backgrounds/skyline-mobile.png");
   background-repeat: no-repeat;
@@ -88,8 +92,11 @@ img {
 }
 
 header.branding #logo {
-  width: 100px;
-  padding: 40px 0 0 20px;
+  width: 140px;
+  padding: 0 0 0 20px;
+}
+header.branding #logo svg {
+  margin-top: -10px;
 }
 
 .wlf {
@@ -536,10 +543,6 @@ footer {
   .contributors p {
     width: 40%;
   }
-}
-
-summary > h4, summary > h3 {
-  display: inline;
 }
 
 /*# sourceMappingURL=style.css.map */

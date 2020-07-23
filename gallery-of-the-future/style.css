@@ -84,20 +84,20 @@ body {
 
 h1, h2 {
   font-size: 3.2rem;
+  line-height: 2rem;
 }
 h3 {
     font-size: 2.6rem;
+    line-height: 2.6rem;
 }
 h1, h2 {
   font-family: "Source Code Pro", monospace;
   font-weight: 700;
-  line-height: 6rem;
   color: #222;
   margin-bottom: 1.2rem;
 }
 
 h3 {
-  line-height: 3.8rem;
   font-weight: 400;
   margin-bottom: 3rem;
 }
@@ -130,6 +130,8 @@ footer {
 @media only screen and (min-width: 768px) {
   h1, h2 {
     font-size: 6rem;
+    line-height: 6rem;
+
   }
   h3 {
     font-size: 4.4rem;
@@ -154,7 +156,7 @@ img {
 }
 
 .subnav li {
-  whitespace: no-wrap;
+  white-space: nowrap;
   padding-top: 6px;
 
 }
