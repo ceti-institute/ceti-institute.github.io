@@ -1,0 +1,437 @@
+/* MAIN STYLES 
+* This file gets compiled down to css/style.css
+* The Sass-lang site offers a list of compilers to use
+* https://sass-lang.com/install
+*
+*/
+/* RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&family=Source+Sans+Pro:wght@400;700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* */
+/* VARIABLES */
+/* bright green was secondary-color */
+/* light blue */
+/* footer color, dark blue background */
+/* why can't we just use the same blue damnit */
+/* */
+/* FUNCTIONS */
+/* */
+/* MIXINS */
+/* */
+/* TYPOGRAPHY */
+html {
+  font-size: 10px;
+  color: #222;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 2rem;
+}
+
+h1, h2 {
+  font-family: "Source Code Pro", monospace;
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 6rem;
+  color: #222;
+  margin-bottom: 1.2rem;
+}
+
+h3 {
+  font-size: 3.4rem;
+  line-height: 3.8rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+h4 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #222;
+}
+
+h5 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #222;
+}
+
+strong {
+  font-weight: 600;
+}
+
+p {
+  line-height: 2.6rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+@media only screen and (min-width: 768px) {
+  h3 {
+    font-size: 4.4rem;
+    line-height: 4.8rem;
+  }
+}
+/* */
+/* IMAGES */
+img {
+  width: 100%;
+}
+
+.subpage figure {
+  height: 30rem;
+  overflow: hidden;
+}
+.subpage figure img {
+  margin-top: -4rem;
+}
+
+@media only screen and (min-width: 768px) {
+  img {
+    width: 100%;
+  }
+}
+/* image handling */
+/* NAV */
+nav a {
+  font-size: 2.4rem;
+  font-family: "Source Sans Pro", monospace;
+  color: #555;
+}
+nav a:hover {
+  color: #E5450A;
+}
+
+.logo svg {
+  width: 160px;
+  margin-top: -20px;
+  margin-left: 40px;
+}
+
+.nav, .desktop {
+  display: block;
+  width: 100%;
+}
+
+.icon {
+  cursor: pointer;
+  top: 0%;
+  right: 0%;
+  display: block;
+  z-index: 1000;
+}
+
+.hamburger {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  transition: 0.5s;
+}
+
+.hamburger:before,
+.hamburger:after {
+  transition: 0.5s;
+}
+
+.hamburger:before {
+  top: -10px;
+}
+
+.hamburger:after {
+  top: 10px;
+}
+
+.icon.active .hamburger {
+  background: rgba(0, 0, 0, 0);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+}
+
+.icon.active .hamburger:before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.icon.active .hamburger:after {
+  top: 0;
+  transform: rotate(135deg);
+}
+
+.menu-mobile {
+  background-color: #fff;
+  border: 1px solid #E5450A;
+  position: fixed;
+  right: 0;
+  width: 40rem;
+  z-index: 999;
+  padding-top: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+}
+
+.menu-mobile, .menu-mobile a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #E5450A;
+}
+
+.menu-mobile a {
+  clear: right;
+  text-decoration: none;
+  color: #555;
+  height: 70px;
+  line-height: 70px;
+}
+
+.menu-mobile a:hover {
+  color: #E5450A;
+}
+
+.desktop, .menu-desktop, .menu-mobile {
+  display: none;
+  margin-top: 90px;
+}
+
+/* END OF Mobile Menu */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  header {
+    display: flex;
+  }
+
+  /* START of desktop menu for 768 media query */
+  /* END of desktop menu for 768 media query */
+}
+/* logo and navigation */
+/* LAYOUT */
+main {
+  width: 100%;
+}
+
+section div {
+  width: 90%;
+  margin: auto;
+  padding: 4rem 0;
+}
+section nav {
+  margin: 0;
+  height: 7rem;
+}
+section nav a {
+  text-decoration: none;
+}
+section nav ul {
+  list-style-type: none;
+  display: flex;
+}
+section nav li {
+  padding-right: 6.5rem;
+}
+section.light {
+  background-color: #fff;
+}
+section.dark {
+  background-color: #2E4DDF;
+  color: #fff;
+}
+section.dark h1, section.dark h2, section.dark h3, section.dark h4, section.dark p, section.dark a {
+  color: #fff;
+}
+section.linear {
+  background: linear-gradient(270deg, #4FE5FE 0%, #1333D3 82.86%);
+  color: #fff;
+}
+section.linear h1, section.linear h2, section.linear h3, section.linear h4, section.linear p, section.linear a {
+  color: #fff;
+}
+section.linear nav {
+  background-color: #1333D3;
+}
+section.linear nav a {
+  color: #fff;
+}
+section.linear nav a:hover {
+  color: #6DFF70;
+}
+section.gof {
+  background-color: #FF3464;
+  color: #fff;
+}
+section.gof h1, section.gof h2, section.gof h3, section.gof h4, section.gof p {
+  color: #fff;
+}
+section.gof nav {
+  background-color: #F7E332;
+}
+section.gof nav a {
+  color: #1333D3;
+}
+section.gof nav a:hover {
+  color: #E5450A;
+}
+section.midgrey {
+  background-color: #99ADAD;
+  color: #fff;
+}
+section.midgrey h1, section.midgrey h2, section.midgrey h3, section.midgrey h4, section.midgrey p {
+  color: #fff;
+}
+
+#devicesNeeded {
+  line-height: 2.8rem;
+}
+#devicesNeeded ul, #devicesNeeded ol li {
+  margin-top: 2.6rem;
+}
+#devicesNeeded .sublist {
+  margin-left: 2.8rem;
+}
+#devicesNeeded .sublist li {
+  margin-top: 1.1rem;
+}
+#devicesNeeded .sublist ul {
+  margin-left: 2.8rem;
+}
+
+@media only screen and (min-width: 768px) {
+  section div, footer div {
+    width: 70%;
+    margin: auto;
+    padding: 8rem 0;
+  }
+  section .subnav, footer .subnav {
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+  }
+}
+/* section and page layout*/
+footer {
+  background-color: #555;
+  color: #fff;
+}
+footer p {
+  color: #fff;
+}
+footer svg {
+  background-color: #fff;
+  fill: #E5450A;
+  padding: 1rem;
+  margin-right: 1.6rem;
+}
+footer svg:hover {
+  fill: #fff;
+  background-color: #E5450A;
+}
+
+/* global footer */
+/* BUTTONS */
+a.btn, button.btn {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+  font-size: 2.2rem;
+  color: #E5450A;
+  background-color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 4rem;
+  margin-right: 2rem;
+  padding: 1rem 1rem;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #E5450A;
+}
+a.btn:hover, button.btn:hover {
+  border-color: #E5450A;
+  color: #fff;
+  background-color: #E5450A;
+}
+a.btn.dark, button.btn.dark {
+  border-color: #fff;
+  background-color: #fff;
+  color: #1333D3;
+}
+a.btn.dark:hover, button.btn.dark:hover {
+  border-color: #6DFF70;
+  background-color: #1333D3;
+  color: #6DFF70;
+}
+a.btn.pink, button.btn.pink {
+  border-color: #fff;
+  background-color: #fff;
+  color: #FF3464;
+}
+a.btn.pink:hover, button.btn.pink:hover {
+  border-color: #fff;
+  background-color: #FF3464;
+  color: #fff;
+}
+a.btn.yellow, button.btn.yellow {
+  border-color: #1333D3;
+  background-color: #F7E332;
+  color: #1333D3;
+}
+a.btn.yellow:hover, button.btn.yellow:hover {
+  border-color: #F7E332;
+  background-color: #1333D3;
+  color: #F7E332;
+}
+
+/* button styles */
+
+/*# sourceMappingURL=style.css.map */
