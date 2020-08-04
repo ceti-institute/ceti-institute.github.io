@@ -107,6 +107,18 @@ header.branding {
     }
 }
 
+
+a.button.pink, button.button.pink {
+  border-color: #fff;
+  background-color: #fff;
+  color: #FF3464;
+}
+a.button.pink:hover, button.button.pink:hover {
+  border-color: #fff;
+  background-color: #FF3464;
+  color: #fff;
+}
+
 .wlf {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -324,6 +336,10 @@ footer {
     padding: 60px;
     color: #fff;
 }
+footer div {
+    width: 80%;
+    margin: auto;
+}
 
 /* Text over an images */
 
@@ -405,8 +421,30 @@ footer {
     .pubdate {font-size: 12px;}
 }
 
-
-
+section.gof {
+  background-color: #FF3464;
+  color: #fff;
+}
+section.gof h1, section.gof h2, section.gof h3, section.gof h4, section.gof p {
+  color: #fff;
+}
+section.gof nav {
+  background-color: #F7E332;
+}
+section.gof nav a {
+  color: #1333D3;
+}
+section.gof nav a:hover {
+  color: #E5450A;
+}
+section.gof div {
+    padding: 60px 0;
+    width: 80%;
+    margin: auto;
+}
+section.gof figure {
+    margin:0;
+}
 /* MAILCHIMP STYLES */
 #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block. */
@@ -438,6 +476,9 @@ footer {
     #subscribe-form {
         width: 60%;
     }
+    section.gof div {
+        width: 60%
+        }
 	.cta {
 		text-align: center;
 		margin-top: 40px;
@@ -502,6 +543,7 @@ footer {
     .contributors {
         p { width: 60%;}
     }
+    footer div { width: 60%;}
 }
 
 @media only screen and (min-width: 1024px) {
