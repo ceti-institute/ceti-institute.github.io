@@ -152,7 +152,7 @@ img {
   overflow: hidden;
 }
 .subpage figure img {
-  margin-top: -4rem;
+  margin-top: 0rem;
 }
 
 .subnav li {
@@ -167,7 +167,7 @@ img {
 
 @media only screen and (min-width: 768px) {
   .subpage figure {
-    height: 30rem;
+    height: 39rem;
   }
   .subnav{
     flex-direction: row;
