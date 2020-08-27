@@ -60,6 +60,12 @@ table {
   border-spacing: 0;
 }
 
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.two-col div { padding-top: 0; margin-top: 0; }
+
 /* */
 /* VARIABLES */
 /* bright green was secondary-color */
