@@ -62,7 +62,7 @@ table {
 
 .two-col {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns:1fr;
 }
 .two-col div { padding-top: 0; margin-top: 0; }
 
@@ -137,15 +137,15 @@ footer {
   h1, h2 {
     font-size: 6rem;
     line-height: 6rem;
-
   }
   h3 {
     font-size: 4.4rem;
     line-height: 4.8rem;
   }
   footer {
-  padding: 0;
-}
+    padding: 0;
+  }
+
 }
 /* */
 /* IMAGES */
@@ -169,6 +169,10 @@ img {
 .subnav {
     flex-direction: column;
     padding-left: 20px;
+}
+.subnav strong {
+  color: #FF3464;
+  font-size: 2.4rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -476,6 +480,11 @@ a.btn.yellow:hover, button.btn.yellow:hover {
   color: #F7E332;
 }
 
+@media only screen and (min-width: 768px) {
+  .two-col {
+    grid-template-columns: 1fr 1fr;
+  }
+ } 
 /* button styles */
 
 /*# sourceMappingURL=style.css.map */
