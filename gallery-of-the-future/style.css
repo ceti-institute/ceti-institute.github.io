@@ -60,7 +60,7 @@ table {
   border-spacing: 0;
 }
 
-.two-col {
+.two-col, .three-col {
   display: grid;
   grid-template-columns:1fr;
 }
@@ -497,6 +497,9 @@ a.btn.yellow:hover, button.btn.yellow:hover {
 @media only screen and (min-width: 768px) {
   .two-col {
     grid-template-columns: 1fr 1fr;
+  }
+  .three-col {
+    grid-template-columns: 1fr 1fr 1fr;
   }
  } 
 /* button styles */
