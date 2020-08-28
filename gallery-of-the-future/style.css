@@ -68,9 +68,10 @@ table {
 
 /* Slick Slideshow */
 .slider {
-  width: 100%;
-  margin-top: -60px;
+  width: 100vw;
+  margin-top: -30px;
   padding:0;
+  overflow: hidden;
 }
 
 .slide-content .text-content {margin-left: 0;}
@@ -97,7 +98,7 @@ body {
 
 h1, h2 {
   font-size: 3.2rem;
-  line-height: 2rem;
+  line-height: 3.2rem;
   text-transform: uppercase;
 }
 h3 {
@@ -152,6 +153,9 @@ footer {
   }
   footer {
     padding: 0;
+  }
+  .slider {
+    margin-top: -60px;
   }
 
 }
@@ -363,6 +367,9 @@ section.linear nav a:hover {
 section.gof {
   background-color: #FF3464;
   color: #fff;
+}
+section.gof nav {
+  height: auto;
 }
 section.gof h1, section.gof h2, section.gof h3, section.gof h4, section.gof p {
   color: #fff;
