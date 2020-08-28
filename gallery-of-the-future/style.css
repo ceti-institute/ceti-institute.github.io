@@ -66,18 +66,25 @@ table {
 }
 .two-col div { padding-top: 0; margin-top: 0; }
 
-/* */
-/* VARIABLES */
-/* bright green was secondary-color */
-/* light blue */
-/* footer color, dark blue background */
-/* why can't we just use the same blue damnit */
-/* */
-/* FUNCTIONS */
-/* */
-/* MIXINS */
-/* */
-/* TYPOGRAPHY */
+/* Slick Slideshow */
+.slider {
+  width: 100%;
+  margin-top: -60px;
+  padding:0;
+}
+
+.slide-content .text-content {margin-left: 0;}
+
+.slide-content img {width: 100vw;}
+
+.slick-initialized .slick-slide {
+  /*display: grid;
+  grid-template-columns: 1fr 1fr;*/
+}
+div.slick-list { width:100vw; margin:0; padding:0; }
+/* /Slick Slideshow */
+
+
 html {
   font-size: 10px;
   color: #222;
@@ -161,7 +168,6 @@ img {
 .subpage figure img {
   margin-top: 0rem;
 }
-
 .subnav li {
   white-space: nowrap;
   padding-top: 6px;
