@@ -91,6 +91,7 @@ body {
 h1, h2 {
   font-size: 3.2rem;
   line-height: 2rem;
+  text-transform: uppercase;
 }
 h3 {
     font-size: 2.6rem;
@@ -170,8 +171,11 @@ img {
     flex-direction: column;
     padding-left: 20px;
 }
+.subnav a {
+  color: #D81E4A;
+}
 .subnav strong {
-  color: #FF3464;
+  color: #D81E4A;
   font-size: 2.4rem;
 }
 
@@ -326,6 +330,7 @@ section nav li {
 section.light {
   background-color: #fff;
 }
+section.light a { color: #D81E4A; }
 section.dark {
   background-color: #2E4DDF;
   color: #fff;
@@ -356,11 +361,20 @@ section.gof {
 section.gof h1, section.gof h2, section.gof h3, section.gof h4, section.gof p {
   color: #fff;
 }
+section.gof h2 .subhead {
+  text-transform: none;
+}
+section.gof.callout p {
+  font-family: "Source Code Pro", monospace;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-weight: bold;
+}
 section.gof nav {
   background-color: #F7E332;
 }
 section.gof nav a{
-  color: #1333D3;
+  color: #D81E4A;
 }
 section.gof a {
   color: #fff;
@@ -369,7 +383,7 @@ section.gof a:hover {
   color: #F7E332;
 }
 section.gof nav a:hover {
-  color: #E5450A;
+  color: #0047FF;
 }
 section.midgrey {
   background-color: #99ADAD;
