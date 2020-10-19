@@ -9,3 +9,7 @@ $('.single-slide').slick({
   draggable: false,
   arrows: false
 });
+
+$('.modal-link').click(function(){
+	$(this).find('.modal').toggleClass('hide')
+})

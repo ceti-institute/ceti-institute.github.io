@@ -139,9 +139,92 @@ p {
   color: #555;
 }
 
+
+#projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px,
+  1fr));
+}
+
+
+/* Text over an images */
+
+.proj-hover {
+  position: relative;
+  width: 300px;
+  margin: auto;
+}
+
+.proj-hover img {
+  width: 100%;
+}
+.proj-hover .text-hover {
+  display: block;
+  width: 300px;
+  height: auto;
+}
+
+.proj-hover .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FF3464;
+  z-index: 1;
+
+}
+
+.proj-hover:hover .overlay {
+  opacity: 1;
+}
+
+.proj-hover .text {
+  color: white;
+  font-family: arial;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+.proj-hover .text a {
+  color: #fff;
+}
+
 footer {
   padding: 3rem 2rem;
 }
+
+.hide {
+  display: none;
+}
+
+/* modal styles */
+.modal {
+  position: absolute;
+  top: 0px;
+  left:-20px;
+  z-index: 2;
+  background-color: #555;
+  color: #fff;
+  min-height: 100px;
+  min-width: 340px;
+  padding: 36px;
+}
+
+.modal a, .modal p {
+  color: #fff;
+}
+
+
 @media only screen and (min-width: 768px) {
   h1, h2 {
     font-size: 6rem;
@@ -188,6 +271,7 @@ img {
   color: #D81E4A;
   font-size: 2.4rem;
 }
+
 
 @media only screen and (min-width: 768px) {
   .subpage figure {
@@ -428,11 +512,16 @@ section.midgrey h1, section.midgrey h2, section.midgrey h3, section.midgrey h4, 
     margin: auto;
     padding: 8rem 0;
   }
+  section div.gallery-name {
+    padding: 8rem 0 3rem 0;
+  }
   section .subnav, footer .subnav {
     width: 70%;
     margin: auto;
     padding-top: 20px;
   }
+  .gof .subnav {
+    padding-bottom: 20px;
 }
 /* section and page layout*/
 footer {
