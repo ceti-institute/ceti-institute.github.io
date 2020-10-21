@@ -64,6 +64,7 @@ table {
   display: grid;
   grid-template-columns:1fr;
 }
+.flex { display: flex; }
 .two-col div { padding-top: 0; margin-top: 0; }
 
 /* Slick Slideshow */
