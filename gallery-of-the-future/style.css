@@ -140,10 +140,11 @@ p {
 }
 
 
-#projects {
+.galleries-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px,
   1fr));
+
 }
 
 
@@ -402,6 +403,11 @@ main {
   width: 100%;
 }
 
+section.galleries-grid {
+  width: 90%;
+  margin: auto;
+  padding: 4rem 0;
+}
 section div {
   width: 90%;
   margin: auto;
