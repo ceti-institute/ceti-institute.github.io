@@ -2,6 +2,8 @@
 
 $color--primary: #00877E;
 $color--secondary: #fd9200;
+$ceti-orange: #E5450A;
+$ceti-grey: #505555;
 
 /* END Global colors */
 
@@ -44,12 +46,11 @@ p {
 
 
 .hero {
-    background-image: url('../images/backgrounds/skyline-mobile.png');
+    background-image: url('../images/heros/home-wft20.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 20px;
     height: 300px;
-    margin-top: -64px;
 }
 .about {
 	position: relative;
@@ -88,8 +89,7 @@ main {
     margin: auto; 
 }
 .home-page section:nth-child(1){
-    background: rgb(239,230,215);
-    background: radial-gradient(circle, rgba(239,230,215,0.8) 0%, rgba(239,211,170,0.2530199579831933) 58%, rgba(159,140,113,0.5) 100%);
+    background: #fff;
 } 
 /* desktop 3rd color: #dec49e */
 
@@ -101,9 +101,7 @@ header.branding {
     #logo {
         width: 140px;
         padding: 0 0 0 20px;
-        svg {
-            margin-top: -10px;
-        }
+        margin-top: -18px;
     }
 }
 
@@ -171,22 +169,22 @@ a {
 }
 
 .button {
-	color: #00877E;
-	border: 1px solid #00877E;
+	color: #E5450A;
+	border: 1px solid #E5450A;
 	padding: 10px 16px;
 	text-decoration: none;
 	display: inline-block;
 	margin-top: 0;
 }
 .button:hover {
-        border-color: #fd9200;
-        color: #fd9200;
+        border-color: #E5450A;
+        background:#E5450A;
+        color: #fff;
     }
 
 .events {
-    background-image: url('../images/backgrounds/annie-spratt-0ZPSX_mQ3xI-unsplash.png');
-   background-size: cover;
-   padding:80px;
+    background: #fff;   
+    padding:80px;
 }
 
 .events .title {
@@ -453,7 +451,7 @@ section.gof figure {
 @media only screen and (min-width: 768px) {
     .mobile-only {display: none;}
     .hero {    
-        background-image: url('../images/backgrounds/skyline.png');
+        background-image: url('../images/heros/home-wft20.png');
         background-position: 0 0;
     }
     header.branding {
@@ -508,11 +506,11 @@ section.gof figure {
         height: 0;
         line-height: 50px;
         text-decoration: none;
-        color: #005a65;
+        color: #505555;
         justify-content: space-evenly;
     }
     .menu-desktop a:hover {
-        color: #fd9200;
+        color: #E5450A;
     }
 
     .desktop {

@@ -278,10 +278,13 @@ img {
   font-size: 2.4rem;
 }
 
-
+.mozlogo { width: 200px;}
 @media only screen and (min-width: 768px) {
   .subpage figure {
     height: 39rem;
+  }
+  .mozfest figure {
+    height: 30rem;
   }
   .subnav{
     flex-direction: row;
