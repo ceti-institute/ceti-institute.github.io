@@ -1,76 +1,107 @@
 /* colors */
 .device-page h1 {
   margin-top: 0;
-  font-size: 32px; }
+  font-size: 32px;
+}
 .device-page h2 {
-  font-size: 26px; }
+  font-size: 26px;
+}
 .device-page h3 {
-  font-size: 18px; }
-.device-page h1, .device-page h2, .device-page h3 {
-  font-weight: 700; }
-.device-page .hamburger, .device-page .hamburger:before,
+  font-size: 18px;
+}
+.device-page h1,
+.device-page h2,
+.device-page h3 {
+  font-weight: 700;
+}
+.device-page .hamburger,
+.device-page .hamburger:before,
 .device-page .hamburger:after {
-  background: #fff; }
+  background: #fff;
+}
 .device-page .branding {
   height: 100%;
-  position: relative; }
+  position: relative;
+}
 .device-page .fcc-logo {
   width: 220px;
   height: auto;
   position: absolute;
   bottom: 20px;
-  left: 0; }
+  left: 0;
+}
 .device-page .menu-desktop a {
-  color: #fff; }
+  color: #fff;
+}
 .device-page .menu-desktop a:hover {
-  color: #32fe94; }
+  color: #32fe94;
+}
 .device-page section > div {
   padding: 20px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 .device-page .device-share1 {
   color: #0f0b94;
-  background: #fff; }
-  .device-page .device-share1 a {
-    color: #22a962; }
-  .device-page .device-share1 a:hover {
-    color: #5bb5bd; }
-  .device-page .device-share1 h3 {
-    margin: 2em 0 0 0; }
+  background: #fff;
+}
+.device-page .device-share1 a {
+  color: #22a962;
+}
+.device-page .device-share1 a:hover {
+  color: #5bb5bd;
+}
+.device-page .device-share1 h3 {
+  margin: 2em 0 0 0;
+}
 .device-page .device-share2 {
   color: #fff;
   background: #332880;
-  background: linear-gradient(90deg, rgba(44, 178, 162, 0.8) 0%, rgba(27, 114, 246, 0.8) 100%); }
-  .device-page .device-share2 a {
-    color: #fff; }
-  .device-page .device-share2 a:hover {
-    color: #32fe94; }
-  .device-page .device-share2 h3 {
-    margin: 2em 0 0 0; }
+  background: linear-gradient(90deg, #1333d3 0%, #4fe5fe 100%);
+}
+.device-page .device-share2 a {
+  color: #fff;
+}
+.device-page .device-share2 a:hover {
+  color: #32fe94;
+}
+.device-page .device-share2 h3 {
+  margin: 2em 0 0 0;
+}
 .device-page details {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+}
 .device-page summary:hover {
-  color: #5bb5bd; }
+  color: #5bb5bd;
+}
 .device-page .hero {
   background-image: url("../images/fcc-banner-mobile.jpg");
   background-position: bottom right;
-  margin-top: -79px; }
+}
 
 @media only screen and (max-width: 767px) {
   .device-page #logo {
-    display: none; } }
+    display: none;
+  }
+}
 @media only screen and (min-width: 768px) {
   .device-page #logo {
-    margin-top: 80px; }
+    margin-top: 80px;
+  }
   .device-page .fcc-logo {
     bottom: 0px;
     left: auto;
-    right: 60px; }
+    right: 60px;
+  }
   .device-page .hero {
-    background-image: url("../images/fcc-banner.jpg"); }
+    background-image: url("../images/fcc-banner.jpg");
+  }
   .device-page h1 {
-    font-size: 42px; }
+    font-size: 42px;
+  }
   .device-page section > div {
     padding: 80px;
-    width: 60%; } }
+    width: 60%;
+  }
+}
 
 /*# sourceMappingURL=fcc.css.map */

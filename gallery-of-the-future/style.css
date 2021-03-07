@@ -141,6 +141,84 @@ p {
 }
 
 
+/*| Navigation Two. replace old nav after testing |*/
+.navtwo {
+  z-index: 900;
+  justify-content: flex-end;
+}
+
+.navtwo ul {
+  list-style: none;
+  position: relative;
+  display: flex;
+}
+
+.navtwo ul li {
+  transition: all 0.2s ease-in-out;
+}
+
+.navtwo ul ul li a:hover {
+  color: #e5450a;
+}
+
+.navtwo ul li:hover > ul {
+  display: block;
+}
+
+.navtwo ul li {
+  transition: all 0.2s ease-in-out;
+}
+
+.navtwo ul li a {
+  display: block;
+  padding: 30px 20px 15px 20px;
+  color: #555;
+  text-decoration: none;
+}
+.navtwo ul li a:hover {
+  color: #e5450a;
+}
+
+.navtwo ul ul {
+  display: none;
+  background: #fff;
+  position: absolute;
+  top: 100%;
+}
+
+.navtwo ul ul li {
+  position: relative;
+  margin-left: -40px;
+  background: #fff;
+  z-index: 100;
+}
+
+.navtwo ul ul li a {
+  padding: 15px 30px;
+  border: 1px solid #e5450a;
+  border-bottom: none;
+}
+.navtwo ul ul li:last-child a {
+  border-bottom: 1px solid #e5450a;
+}
+
+.navtwo ul ul ul {
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+/* END Nav Two */
+header {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
+header h1 {
+  margin-bottom: 0;
+  width: 140px;
+  padding: 0 0 0 20px;
+  margin-top: -18px;
+}
 .galleries-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px,
@@ -437,6 +515,7 @@ section nav li {
 }
 section.light {
   background-color: #fff;
+  border-color: #d81e4a;
 }
 section.light a { color: #D81E4A; }
 section.dark {
@@ -593,6 +672,16 @@ a.btn.pink, button.btn.pink {
   border-color: #fff;
   background-color: #fff;
   color: #FF3464;
+}
+a.btn.light, button.btn.light {
+  border-color: #D81E4A;
+  color: #D81E4A;
+  background-color: #fff;
+}
+a.btn.light:hover, button.btn.light:hover {
+  border-color: #fff;
+  color: #fff;
+  background-color: #D81E4A;
 }
 a.btn.pink:hover, button.btn.pink:hover {
   border-color: #fff;

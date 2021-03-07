@@ -4,115 +4,118 @@ $color--drktheme--hover: #32fe94;
 $color--drktheme--link: #fff;
 $color--lttheme--primary: #0f0b94;
 $color--lttheme--link: #22a962;
-$color--lttheme--hover: #rgb(91,181,189);
+$color--lttheme--hover: #rgb(91, 181, 189);
 .device-page {
-    h1 {
-        margin-top: 0;
-        font-size: 32px;
-    }
+  h1 {
+    margin-top: 0;
+    font-size: 32px;
+  }
 
-    h2 {
-        font-size: 26px;
-    }
+  h2 {
+    font-size: 26px;
+  }
 
+  h3 {
+    font-size: 18px;
+  }
+  h1,
+  h2,
+  h3 {
+    font-weight: 700;
+  }
+  .hamburger,
+  .hamburger:before,
+  .hamburger:after {
+    background: #fff;
+  }
+  .branding {
+    height: 100%;
+    position: relative;
+  }
+
+  .fcc-logo {
+    width: 220px;
+    height: auto;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+  }
+  .menu-desktop a {
+    color: #fff;
+  }
+  .menu-desktop a:hover {
+    color: #32fe94;
+  }
+  section > div {
+    padding: 20px;
+    margin: 0 auto;
+  }
+  .device-share1 {
+    color: $color--lttheme--primary;
+    background: #fff;
+    a {
+      color: #22a962;
+    }
+    a:hover {
+      color: rgb(91, 181, 189);
+    }
     h3 {
-        font-size: 18px;
+      margin: 2em 0 0 0;
     }
-    h1,h2,h3 {
-        font-weight: 700;
+  }
+  .device-share2 {
+    color: #fff;
+    background: rgb(51, 40, 128);
+    background: linear-gradient(90deg, rgba(19, 51, 211, 1) 0%, rgba(79, 229, 254, 1) 100%);
+    a {
+      color: $color--drktheme--link;
     }
-    .hamburger,.hamburger:before,
-    .hamburger:after {
-        background: #fff;
+    a:hover {
+      color: $color--drktheme--hover;
     }
-    .branding {
-        height: 100%;
-        position: relative;
+    h3 {
+      margin: 2em 0 0 0;
     }
-
-    .fcc-logo {
-        width: 220px;
-        height: auto;
-        position: absolute;
-        bottom: 20px;
-        left: 0;
-    }
-    .menu-desktop a{
-        color: #fff;
-    }
-    .menu-desktop a:hover{
-        color: #32fe94;
-    }
-    section   > div {
-        padding: 20px;
-        margin: 0 auto;  
-    }
-    .device-share1{
-        color: $color--lttheme--primary;
-        background: #fff;
-        a { color: #22a962;}
-        a:hover {
-            color: rgb(91,181,189);
-        }
-        h3 {
-            margin: 2em 0 0 0;
-        }
-        
-    }
-    .device-share2 {
-        color: #fff;
-        background: rgb(51,40,128);
-        background: linear-gradient(90deg, rgba(44, 178, 162, 0.8) 0%, rgba(27,114,246,0.8) 100%);
-        a { color: $color--drktheme--link;}
-        a:hover {
-            color: $color--drktheme--hover;
-        }
-        h3 {
-            margin: 2em 0 0 0;
-        }
-    }
-    details {
-        margin-bottom: 1em;
-    }
-    summary:hover {
-        color: rgb(91,181,189);
-    }
-    .hero {
-        background-image: url('../images/fcc-banner-mobile.jpg');
-        background-position: bottom right;
-        margin-top: -79px;
-    }
-    
+  }
+  details {
+    margin-bottom: 1em;
+  }
+  summary:hover {
+    color: rgb(91, 181, 189);
+  }
+  .hero {
+    background-image: url("../images/fcc-banner-mobile.jpg");
+    background-position: bottom right;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-    .device-page {
-        #logo {
-            display: none;
-        }
+  .device-page {
+    #logo {
+      display: none;
     }
+  }
 }
 
-
 @media only screen and (min-width: 768px) {
-    .device-page {
-        #logo {
-            margin-top: 80px;
-        }
-        .fcc-logo {
-            bottom: 0px;
-            left: auto;
-            right: 60px;
-        }
-        .hero {
-            background-image: url('../images/fcc-banner.jpg');
-        }
-        h1{ 
-            font-size: 42px;
-        }
-        section > div {
-            padding: 80px;
-            width:60%;
-        }
-    } 
+  .device-page {
+    #logo {
+      margin-top: 80px;
+    }
+    .fcc-logo {
+      bottom: 0px;
+      left: auto;
+      right: 60px;
+    }
+    .hero {
+      background-image: url("../images/fcc-banner.jpg");
+    }
+    h1 {
+      font-size: 42px;
+    }
+    section > div {
+      padding: 80px;
+      width: 60%;
+    }
+  }
 }

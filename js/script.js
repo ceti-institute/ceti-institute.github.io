@@ -1,40 +1,73 @@
-'use strict'
-
+"use strict"
 
 function toggleIcon() {
-    $('.icon').on('click', function(){
-        $('.icon').toggleClass('active');
-        $('.menu-mobile').slideToggle(300);
-    })
+  $(".icon").on("click", function () {
+    $(".icon").toggleClass("active")
+    $(".menu-mobile").slideToggle(300)
+  })
 }
 
-function closeMobileMenu(){
-    $('.menu-mobile').on('click', 'a', function(){
-        $('.icon').trigger('click');
-    })
+function closeMobileMenu() {
+  $(".menu-mobile").on("click", "a", function () {
+    $(".icon").trigger("click")
+  })
 }
 
-$(document).ready(function() {
-	$('.popup-with-form').magnificPopup({
-		type: 'inline',
-		preloader: false,
-		focus: '#name',
+function topNavList() {
+  $("#topnavlist").html(`<ul>
+        <li><a href="#">Projects</a>
+          <ul>
+            <li><a href="/gallery-of-the-future/">Gallery of the Future</a></li>
+            <li><a href="/device-sharing">Device Sharing</a></li>
+          </ul>
+        </li>
+        <li><a href="/newsletter">Newsletter</a></li>
+      </ul>
+      `)
+}
 
-		// When elemened is focused, some mobile browsers in some cases zoom in
-		// It looks not nice, so we disable it:
-		callbacks: {
-			beforeOpen: function() {
+function mobileNav() {
+  $("#mobilenavlist").html(`
+      <div class="icon">
+        <div class="hamburger"></div>
+      </div>
+      <div class="menu-mobile">
+      <strong><a href="#">Projects</a></strong>
+        <a href="/gallery-of-the-future/">Gallery of the Future</a>
+        <a href="/device-sharing">Device Sharing</a>
+        <strong><a href="/newsletter">Newsletter Signup</a></strong>
+      </div>
+    `)
+}
+// handle links with @href started with '#' only
+$(document).on("click", 'a[href^="#"]', function (e) {
+  // target element id
+  var id = $(this).attr("href")
 
-				if($(window).width() < 700) {
-					this.st.focus = false;
-				} else {
-					this.st.focus = '#name';
-				}
-			}
-		}
-	});
-});
+  // target element
+  var $id = $(id)
+  if ($id.length === 0) {
+    return
+  }
+
+  // prevent standard hash navigation (avoid blinking in IE)
+  e.preventDefault()
+
+  // top position relative to the document
+  var pos = $id.offset().top
+
+  // animated top scrolling
+  $("body, html").animate({ scrollTop: pos })
+})
+// end nav scripts
+
+$(".modal-link").click(function () {
+  $(this).find(".modal").toggleClass("hide")
+})
 
 //when the page loads call toggleIcon;
-$(toggleIcon);
-$(closeMobileMenu);
+$(topNavList)
+$(mobileNav)
+
+$(toggleIcon)
+$(closeMobileMenu)

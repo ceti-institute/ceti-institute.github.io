@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+
+
+      /*| Navigation Two. replace old nav after testing |*/
+      .navtwo {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        <!-- box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(0, 0, 0, 0.1); -->
+      }
+
+      .navtwo ul {
+        list-style: none;
+        position: relative;
+        margin-right: 100px;
+        display: flex;
+      }
+
+      .navtwo ul li {
+        transition: all 0.2s ease-in-out;
+      }
+
+      .navtwo ul ul li:hover {
+        border: 1px solid #e5450a;
+      }
+
+      .navtwo ul li:hover > ul {
+        display: block;
+      }
+
+      .navtwo ul li {
+
+        transition: all 0.2s ease-in-out;
+      }
+
+      .navtwo ul li a {
+        display: block;
+        padding: 30px 20px 15px 20px;
+        color: #555;
+        text-decoration: none;
+      }
+
+      .navtwo ul ul {
+        display: none;
+        background: #fff;
+        position: absolute;
+        top: 100%;
+        box-shadow: -3px 3px 10px -2px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+      }
+
+      .navtwo ul ul li {
+        float: none;
+        position: relative;
+      }
+
+      .navtwo ul ul li a {
+        padding: 15px 30px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+      }
+
+      .navtwo ul ul ul {
+        position: absolute;
+        left: 100%;
+        top: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="/css/style-two-oh.css" />
+    <title>Navigation tests</title>
+  </head>
+  <body>
+    <nav role="navigation" class="navtwo">
+      <ul>
+        <li>
+          <a href="#">Events</a>
+          <ul>
+            <li><a href="/mozfest2021/">MozFest 2021</a></li>
+            <li><a href="/system-failure/">System Failure. Please Restart</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="/newsletter">Newsletter</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
