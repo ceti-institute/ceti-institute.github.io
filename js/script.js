@@ -19,6 +19,7 @@ function topNavList() {
           <ul>
             <li><a href="/gallery-of-the-future/">Gallery of the Future</a></li>
             <li><a href="/device-sharing">Device Sharing</a></li>
+            <li><a href="/wlf2020">Winter Light Fesrtival</a></li>
           </ul>
         </li>
         <li><a href="/newsletter">Newsletter</a></li>
@@ -35,6 +36,7 @@ function mobileNav() {
       <strong><a href="#">Projects</a></strong>
         <a href="/gallery-of-the-future/">Gallery of the Future</a>
         <a href="/device-sharing">Device Sharing</a>
+        <a href="/wlf2020">Winter Light Fesrtival</a>
         <strong><a href="/newsletter">Newsletter Signup</a></strong>
       </div>
     `)
