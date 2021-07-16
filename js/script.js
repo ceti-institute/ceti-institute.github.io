@@ -17,6 +17,7 @@ function topNavList() {
   $("#topnavlist").html(`<ul>
         <li><a href="#">Projects</a>
           <ul>
+            <li><a href="/programs/enchanted-tech">Enchanted Tech</a></li>
             <li><a href="/gallery-of-the-future/">Gallery of the Future</a></li>
             <li><a href="/device-sharing">Device Sharing</a></li>
             <li><a href="/wlf2020">Winter Light Fesrtival</a></li>
@@ -34,6 +35,7 @@ function mobileNav() {
       </div>
       <div class="menu-mobile">
       <strong><a href="#">Projects</a></strong>
+        <a href="/programs/enchanted-tech">Enchanted Tech</a>
         <a href="/gallery-of-the-future/">Gallery of the Future</a>
         <a href="/device-sharing">Device Sharing</a>
         <a href="/wlf2020">Winter Light Fesrtival</a>
