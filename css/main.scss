@@ -484,7 +484,8 @@ button.btn.light:hover {
 }
 
 .gallery.sponsors {
-  width: 100%;
+  grid-row-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 .wlf-link {
   div {
