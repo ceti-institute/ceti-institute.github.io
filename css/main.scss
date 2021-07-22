@@ -1,13 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap");
+
 /* Global colors */
 
 $color--primary: #00877e;
-$color--secondary: #fd9200;
+$color--secondary: #ada59a;
 $ceti-orange: #e5450a;
+$ceti-orange-light: #e47045;
 $ceti-grey: #505555;
-
-/* END Global colors */
-
-/* Global Styles */
+$ceti-grey-light: #99adad;
+$ceti-black: #393b3b;
+$ceti-royal: #2e4ddf;
+/* END Global colors */ /* Global Styles */
 * {
   box-sizing: border-box;
 }
@@ -24,15 +27,54 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Source Code Pro", sans-serif;
+  font-family: "Source Code Pro", monospace;
 }
 
-h1,
-h2 {
+h1 {
+  font-family: "Source Code Pro", sans-serif;
+  text-transform: none;
   font-weight: 700;
+  font-size: 60px;
+  line-height: 1.2em;
+}
+h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 44px;
+  font-weight: 400;
+  margin-top: 0;
+  line-height: 1.2em;
+}
+.caps {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+.home-page {
+  h2 {
+    font-family: "Source Code Pro", sans-serif;
+    text-transform: unset;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  h3 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+  }
+}
+figure {
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+hr {
+  margin: 80px 0;
 }
 .about h2 {
-  font-size: 36px;
+  font-size: 44px;
+  margin-top: 0;
+  text-transform: capitalize;
 }
 .wlf-link h2 {
   text-transform: uppercase;
@@ -44,23 +86,112 @@ h5 {
   font-weight: 600;
 }
 
-h1 {
-  font-family: "Source Code Pro", sans-serif;
-  font-size: 4em;
-}
-
 p {
-  line-height: 1.2rem;
+  line-height: 1.4em;
+}
+a {
+  text-decoration: none;
+  color: $ceti-grey;
+}
+.orange {
+  background-color: $ceti-orange;
+  margin-top: -5px;
+  color: #fff;
+  a {
+    color: white;
+  }
+}
+.orange-light {
+  background-color: $ceti-orange-light;
+  color: #fff;
+  a {
+    color: white;
+  }
+  padding-bottom: 60px;
+}
+.grey {
+  background-color: $ceti-grey-light;
+  margin-top: -5px;
+  color: $ceti-black;
+  a {
+    color: $ceti-black;
+  }
+}
+.e-tech {
+  background-color: #b7dcb0;
+}
+.royal {
+  background-color: $ceti-royal;
+  color: #fff;
+  a {
+    color: #fff;
+  }
+  .button {
+    background-color: #fff;
+    color: $ceti-royal;
+    border-color: #fff;
+  }
+  .button:hover {
+    background-color: $ceti-royal;
+    color: #fff;
+    border-color: #fff;
+  }
+}
+.biohead {
+  background-color: $ceti-orange;
+  color: #fff;
+  width: 100%;
+  height: 350px;
+  .biopic {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+  img {
+    height: 350px;
+    width: auto;
+    margin-bottom: -5px;
+  }
 }
 
-/* END Global Styles */
+ul.links-horiz {
+  display: flex;
+  width: auto;
+  padding: 0;
 
+  a {
+    color: $ceti-orange;
+  }
+  li {
+    list-style-type: none;
+    margin-right: 20px;
+  }
+}
+/* END Global Styles */
+#intro {
+  padding-bottom: 60px;
+}
+#intro.gof {
+  padding-bottom: 0px;
+}
 .hero {
-  background-image: url("../images/heros/home-wft20.png");
+  background-image: url("../images/heros/wlf-ceti-blue-green.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 75% 50%;
   height: 300px;
+  width: 100vw;
+}
+.home-page .hero {
+  background-image: url("../images/heros/wlf-game.png");
+}
+.enchanted-page {
+  a {
+    color: $ceti-orange;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 }
 .about {
   position: relative;
@@ -71,7 +202,36 @@ p {
     margin: auto;
   }
 }
-
+.flex-horiz {
+  /* the horizontal display of icons on programs page */
+  display: flex;
+  list-style-type: none;
+  align-items: baseline;
+  li {
+    text-align: center;
+    padding-right: 20px;
+  }
+}
+.programs-grid {
+  /* the 2x grid of square program images on programs page */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  article {
+    background-color: $ceti-grey;
+    color: #fff;
+    text-align: center;
+    a {
+      color: #fff;
+    }
+  }
+  .e-tech {
+    background-color: #b7dcb0;
+    color: $ceti-grey;
+    a {
+      color: $ceti-grey;
+    }
+  }
+}
 /*| Navigation Two. replace old nav after testing |*/
 .navtwo {
   z-index: 900;
@@ -105,7 +265,7 @@ p {
   display: block;
   font-size: 24px;
   padding: 10px 20px 15px 20px;
-  color: #555;
+  color: $ceti-grey;
   text-decoration: none;
 }
 .navtwo ul li a:hover {
@@ -228,7 +388,7 @@ header h1 {
 }
 
 main {
-  width: 100%;
+  width: 100vw;
   margin: auto;
 }
 .home-page section:nth-child(1) {
@@ -284,6 +444,11 @@ button.btn.light:hover {
   color: #fff;
   background-color: #d81e4a;
 }
+
+.orange-light .button {
+  background-color: #fff;
+  color: #d81e4a;
+}
 .wlf {
   display: grid;
   grid-template-columns: 1fr;
@@ -292,7 +457,35 @@ button.btn.light:hover {
     margin-top: 1rem;
   }
 }
+.person-page section article.inner {
+  padding: 60px 0 60px 0;
+  width: 90%;
+  margin: auto;
+}
+.gallery {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
+  padding-bottom: 80px;
+  img {
+    width: 100%;
+  }
+  .card {
+    padding: 0;
+    margin: 0;
+  }
+}
+.gallery.newsgallery {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  width: 100%;
+}
 
+.gallery.sponsors {
+  width: 100%;
+}
 .wlf-link {
   div {
     width: 90%;
@@ -321,28 +514,27 @@ button.btn.light:hover {
     border-color: #fff;
     color: #fff;
   }
-}
-.bang {
-  position: absolute;
-  top: -80px;
-  left: -80px;
-  width: 440px;
-  z-index: -1;
-  opacity: 0.1;
-}
+  .bang {
+    position: absolute;
+    top: -80px;
+    left: -80px;
+    width: 440px;
+    z-index: -1;
+    opacity: 0.1;
+  }
 
-h2.tagline {
-  margin-top: 1em;
-}
+  h2.tagline {
+    margin-top: 1em;
+  }
 
-a {
-  color: #00877e;
-  font-weight: bold;
-  :hover {
-    color: #fd9200;
+  a {
+    color: #00877e;
+    font-weight: bold;
+    &:hover {
+      color: #fd9200;
+    }
   }
 }
-
 .button {
   color: #e5450a;
   border: 1px solid #e5450a;
@@ -355,6 +547,36 @@ a {
   border-color: #e5450a;
   background: #e5450a;
   color: #fff;
+  text-decoration: none;
+}
+section .inner {
+  padding: 60px 0 0 0;
+  width: 80%;
+  margin: auto;
+}
+.company-page {
+  section {
+    background-color: #fff;
+    color: #555;
+  }
+  section .inner {
+    padding: 60px 0 0 0;
+    width: 80%;
+    margin: auto;
+  }
+  section figure {
+    margin: 0;
+  }
+}
+#people {
+  .white a {
+    color: $ceti-grey;
+  }
+  h2 {
+    font-size: 44px;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
 }
 
 .events {
@@ -519,25 +741,48 @@ a {
   display: none;
   margin-top: 0px;
 }
+
 footer {
-  background-color: #505555;
+  background-color: $ceti-orange;
   padding: 60px;
   color: #fff;
-}
-footer svg {
-  background-color: #fff;
-  fill: #e5450a;
-  color: #e5450a;
-  padding: 6px;
-  margin-right: 1.6rem;
-}
-footer svg:hover {
-  fill: #fff;
-  background-color: #e5450a;
-}
-footer div {
-  width: 80%;
-  margin: auto;
+  a {
+    color: #fff;
+    margin-right: 16px;
+    border: 2px solid $ceti-orange;
+    display: inline-block;
+    border-radius: 12px;
+    padding: 4px 4px 0 4px;
+  }
+  a:hover {
+    border: 2px solid #fff;
+  }
+  .inner {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .right {
+    text-align: right;
+  }
+  img {
+    width: 35px;
+    height: 35px;
+  }
+
+  svg {
+    background-color: $ceti-orange;
+    fill: #fff;
+    color: #fff;
+    padding: 6px;
+    margin-right: 1.6rem;
+    overflow: hidden;
+  }
+  svg:hover {
+    fill: $ceti-orange;
+    background-color: #fff;
+  }
 }
 
 /* Text over an images */
@@ -624,6 +869,20 @@ footer div {
   }
 }
 
+.person-page {
+  h1 {
+    font-size: 44px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+  }
+  h2 {
+    font-family: "Source Sans Pro";
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 0;
+  }
+}
 section.gof {
   background-color: #ff3464;
   color: #fff;
@@ -679,6 +938,13 @@ section.events div.title {
   clear: left;
   font: 14px Helvetica, Arial, sans-serif;
 }
+section #subscribe-form,
+section #subscribe-form div {
+  padding: 0;
+}
+#subscribe-form #mc_embed_signup .mc-field-group {
+  max-width: 600px;
+}
 /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block. */
 
 @media only screen and (min-width: 768px) {
@@ -687,27 +953,26 @@ section.events div.title {
   }
   .navtwo {
     display: block;
+    margin-right: 30px;
   }
   .navmobile {
     display: none;
   }
   .hero {
-    background-image: url("../images/heros/home-wft20.png");
+    background-image: url("../images/heros/wlf-ceti-blue-green.png");
     background-position: 0 20px;
   }
   header.branding {
-    grid-template-columns: 1fr 4fr;
+    display: flex;
   }
   #logo {
     font-size: 4em;
   }
   h1 {
-    font-size: 6em;
+    font-size: 60px;
+    margin: 0;
   }
   .about {
-    h2 {
-      font-size: 42px;
-    }
     div {
       padding: 80px 0;
     }
@@ -722,6 +987,10 @@ section.events div.title {
   }
   section.gof div {
     width: 60%;
+  }
+  .home-page div.inner {
+    width: 60%;
+    padding-bottom: 60px;
   }
   .cta {
     text-align: center;
@@ -807,6 +1076,9 @@ section.events div.title {
   footer div {
     width: 60%;
   }
+  .person-page section article.inner {
+    width: 80%;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -814,6 +1086,9 @@ section.events div.title {
     width: 540px;
     top: -120px;
     left: -260px;
+  }
+  .person-page section article.inner {
+    width: 60%;
   }
   .cta h3 {
     font-size: 2rem;
@@ -824,6 +1099,23 @@ section.events div.title {
       padding: 80px 0;
       width: 60%;
     }
+  }
+  .gallery {
+    .card {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      font-family: "Source Code Pro";
+      font-size: 24px;
+      font-weight: 400;
+      color: $ceti-black;
+      a {
+        color: $ceti-black;
+      }
+    }
+  }
+  .orange .gallery .card a {
+    color: white;
   }
   .contributors {
     p {
