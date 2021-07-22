@@ -10,7 +10,7 @@ function topNavList() {
             <li><a href="/programs/xrchive">XRchive</a></li>
             <li><a href="/gallery-of-the-future/">Gallery of the Future</a></li>
             <li><a href="/device-sharing">Device Sharing</a></li>
-            <li><a href="/wlf2020">Winter Light Fesrtival</a></li>
+            <li><a href="/wlf2020">Winter Light Festival</a></li>
           </ul>
     </li>
     <li><a href="/community">Community</a></li>      
