@@ -42,13 +42,12 @@ function footerNav() {
   $("footer div").html(
     `
     <a href="https://www.facebook.com/CETI.Institute/" target="_blank"><img src="/images/icons/facebook.png" /></a>
-        <a href="https://www.instagram.com/ceti.institute/" target="_blank"><img src="/images/icons/instagram1.png" /></a>
-        <a href="https://twitter.com/ceti_institute" target="_blank"><img src="/images/icons/twitter1.png" /></a>
-        
+    <a href="https://www.instagram.com/ceti.institute/" target="_blank"><img src="/images/icons/instagram1.png" /></a>
+    <a href="https://twitter.com/ceti_institute" target="_blank"><img src="/images/icons/twitter1.png" /></a>
+    <a href="https://www.youtube.com/channel/UCNORXg1dJPQDrRy_slCEOMA" target="_blank"><img src="/images/icons/youtube.png" /></a>
         `
   )
 }
-// removing for now <a href="https://www.youtube.com/c/CetiInstitute" target="_blank"><img src="/images/icons/youtube.png" /></a>
 
 function toggleIcon() {
   $(".icon").on("click", function () {
