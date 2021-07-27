@@ -67,6 +67,23 @@ table {
 .flex { display: flex; }
 .two-col div { padding-top: 0; margin-top: 0; }
 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 /* Slick Slideshow */
 .slider {
   width: 100vw;
@@ -605,6 +622,10 @@ section.midgrey h1, section.midgrey h2, section.midgrey h3, section.midgrey h4, 
     margin: auto;
     padding: 8rem 0;
   }
+  section div.embed-container {
+    padding:15em 0;
+    margin-top:-5em;
+  }
   section div.gallery-name {
     padding: 8rem 0 3rem 0;
   }
@@ -673,12 +694,12 @@ a.btn.pink, button.btn.pink {
   background-color: #fff;
   color: #FF3464;
 }
-a.btn.light, button.btn.light {
+.light a.btn, .light button.btn {
   border-color: #D81E4A;
   color: #D81E4A;
   background-color: #fff;
 }
-a.btn.light:hover, button.btn.light:hover {
+.light a.btn:hover, .light button.btn:hover {
   border-color: #fff;
   color: #fff;
   background-color: #D81E4A;
