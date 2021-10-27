@@ -447,7 +447,7 @@ button.btn.light:hover {
 
 .orange-light .button {
   background-color: #fff;
-  color: #d81e4a;
+  color: $ceti-orange;
 }
 .wlf {
   display: grid;
@@ -629,9 +629,7 @@ section .inner {
 .device-page .nav {
   display: none;
 }
-.device-page .nav a,
-.device-page .desktop .menu-desktop a {
-}
+
 /* START of Mobile Menu */
 .nav,
 .desktop {
@@ -1083,6 +1081,12 @@ section #subscribe-form div {
 }
 
 @media only screen and (min-width: 1024px) {
+  .grid-two {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-gap: 80px;
+    margin-bottom: 60px;
+  }
   .bang {
     width: 540px;
     top: -120px;

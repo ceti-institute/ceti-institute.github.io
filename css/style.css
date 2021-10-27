@@ -462,7 +462,7 @@ button.btn.light:hover {
 
 .orange-light .button {
   background-color: #fff;
-  color: #d81e4a;
+  color: #e5450a;
 }
 
 .wlf {
@@ -1121,6 +1121,13 @@ section #subscribe-form div {
   }
 }
 @media only screen and (min-width: 1024px) {
+  .grid-two {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-gap: 80px;
+    margin-bottom: 60px;
+  }
+
   .bang {
     width: 540px;
     top: -120px;
