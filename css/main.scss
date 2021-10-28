@@ -742,19 +742,26 @@ section .inner {
 }
 
 footer {
-  background-color: $ceti-orange;
+  background-color: $ceti-grey;
   padding: 60px;
   color: #fff;
   a {
     color: #fff;
     margin-right: 16px;
-    border: 2px solid $ceti-orange;
     display: inline-block;
-    border-radius: 12px;
     padding: 4px 4px 0 4px;
   }
-  a:hover {
+  .left {
+    a {
+      border-radius: 12px;
+      border: 2px solid $ceti-grey;
+    }
+  }
+  .left a:hover {
     border: 2px solid #fff;
+  }
+  .right a:hover {
+    border-bottom: 2px solid #fff;
   }
   .inner {
     width: 80%;
@@ -784,6 +791,10 @@ footer {
   }
 }
 
+footer > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 /* Text over an images */
 
 .person-card p.mobile-only {
@@ -1073,7 +1084,7 @@ section #subscribe-form div {
     }
   }
   footer div {
-    width: 60%;
+    width: 100%;
   }
   .person-page section article.inner {
     width: 80%;

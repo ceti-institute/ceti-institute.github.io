@@ -764,20 +764,25 @@ section .inner {
 }
 
 footer {
-  background-color: #e5450a;
+  background-color: #505555;
   padding: 60px;
   color: #fff;
 }
 footer a {
   color: #fff;
   margin-right: 16px;
-  border: 2px solid #e5450a;
   display: inline-block;
-  border-radius: 12px;
   padding: 4px 4px 0 4px;
 }
-footer a:hover {
+footer .left a {
+  border-radius: 12px;
+  border: 2px solid #505555;
+}
+footer .left a:hover {
   border: 2px solid #fff;
+}
+footer .right a:hover {
+  border-bottom: 2px solid #fff;
 }
 footer .inner {
   width: 80%;
@@ -803,6 +808,11 @@ footer svg {
 footer svg:hover {
   fill: #e5450a;
   background-color: #fff;
+}
+
+footer > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 /* Text over an images */
@@ -1113,7 +1123,7 @@ section #subscribe-form div {
   }
 
   footer div {
-    width: 60%;
+    width: 100%;
   }
 
   .person-page section article.inner {
