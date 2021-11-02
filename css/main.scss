@@ -433,7 +433,8 @@ button.button.gray:hover {
   color: #fff;
 }
 a.btn.light,
-button.btn.light {
+button.btn.light,
+.button.light {
   border-color: #d81e4a;
   color: #d81e4a;
   background-color: #fff;
@@ -795,6 +796,9 @@ footer > div {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.hackathon__partners_list {
+  list-style-type: none;
+}
 /* Text over an images */
 
 .person-card p.mobile-only {
@@ -920,6 +924,31 @@ section.gof div {
 }
 section.gof figure {
   margin: 0;
+}
+section.constellations {
+  div {
+    padding: 60px 0;
+    width: 80%;
+    margin: auto;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    color: #fff;
+  }
+  background-color: #382abb;
+  .button.light {
+    border-color: #fff;
+    color: #fff;
+    background-color: #382abb;
+  }
+  .button.light:hover {
+    border-color: #382abb;
+    color: #382abb;
+    background-color: #fff;
+  }
 }
 
 section.events {
@@ -1067,6 +1096,7 @@ section #subscribe-form div {
       font-size: 3em;
     }
   }
+
   .about {
     div {
       padding: 80px 0;
@@ -1088,6 +1118,24 @@ section #subscribe-form div {
   }
   .person-page section article.inner {
     width: 80%;
+  }
+  .hackathon__partners_list {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-items: center;
+    .stacks {
+      background-color: #000;
+    }
+    li {
+      flex: 25%;
+      padding: 10px;
+      margin: 16px;
+      border: 1px solid #000;
+    }
+    .no-bdrd {
+      border: none;
+    }
   }
 }
 

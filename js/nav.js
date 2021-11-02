@@ -45,6 +45,7 @@ function footerNav() {
     <a href="https://www.instagram.com/ceti.institute/" target="_blank"><img src="/images/icons/instagram1.png" /></a>
     <a href="https://twitter.com/ceti_institute" target="_blank"><img src="/images/icons/twitter1.png" /></a>
     <a href="https://www.youtube.com/channel/UCNORXg1dJPQDrRy_slCEOMA" target="_blank"><img src="/images/icons/youtube.png" /></a>
+    <a href="https://calendar.google.com/calendar/embed?src=hello%40ceti.institute&ctz=America%2FLos_Angeles" target="_blank"><img src="/images/icons/calendar.png" /></a>
     </div>
     <div class="right">
       <a href="/newsletter">newsletter</a> &nbsp;
