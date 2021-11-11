@@ -953,7 +953,12 @@ section.constellations {
     background-color: #fff;
   }
 }
-
+#xrchive-page .light a {
+  color: $ceti-orange;
+}
+#xrchive-page .light a:hover {
+  color: $ceti-grey;
+}
 section.events {
   background: #99adad;
   color: #fff;

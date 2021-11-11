@@ -975,6 +975,14 @@ section.constellations .button.light:hover {
   background-color: #fff;
 }
 
+#xrchive-page .light a {
+  color: #e5450a;
+}
+
+#xrchive-page .light a:hover {
+  color: #505555;
+}
+
 section.events {
   background: #99adad;
   color: #fff;
