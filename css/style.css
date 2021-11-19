@@ -124,6 +124,24 @@ a {
   color: #393b3b;
 }
 
+.e-tech-blue {
+  background-color: #0aaae5;
+  color: #fff;
+}
+.e-tech-blue a {
+  color: #fff;
+}
+.e-tech-blue .button {
+  background-color: #fff;
+  color: #0aaae5;
+  border-color: #fff;
+}
+.e-tech-blue .button:hover {
+  background-color: #0aaae5;
+  color: #fff;
+  border-color: #fff;
+}
+
 .e-tech {
   background-color: #b7dcb0;
 }

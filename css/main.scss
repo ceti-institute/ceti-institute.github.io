@@ -122,6 +122,23 @@ a {
     color: $ceti-black;
   }
 }
+.e-tech-blue {
+  background-color: #0aaae5;
+  color: #fff;
+  a {
+    color: #fff;
+  }
+  .button {
+    background-color: #fff;
+    color: #0aaae5;
+    border-color: #fff;
+  }
+  .button:hover {
+    background-color: #0aaae5;
+    color: #fff;
+    border-color: #fff;
+  }
+}
 .e-tech {
   background-color: #b7dcb0;
 }
