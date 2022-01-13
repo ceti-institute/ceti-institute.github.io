@@ -434,7 +434,10 @@ header.branding {
     margin-top: -18px;
   }
 }
-
+strong {
+  display: inline-block;
+  margin-top: 18px;
+}
 a.button.pink,
 button.button.pink {
   border-color: #fff;
