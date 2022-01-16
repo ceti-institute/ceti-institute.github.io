@@ -410,19 +410,36 @@ ul.links-horiz li {
 /* END Nav Two */
 /* constellations 22 */
 .wlf22 .participants_list {
+  margin-bottom: 80px;
+  list-style-type: none;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: 1fr;
   grid-gap: 30px;
 }
-.wlf22 .participants_list li {
+.wlf22 .participants_list .colorLink {
+  color: #0573ad;
+  text-decoration: underline;
+}
+.wlf22 .participants_list .hide {
+  display: none;
+}
+.wlf22 .participants_list .avatar {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
   background: #342ebb;
-  background: linear-gradient(137deg, #342ebb 0%, #7900cc 61%, #0573ad 87%);
-  padding: 50px 30px;
-  color: #fff;
+  background: linear-gradient(137deg, #342ebb 0%, #0573ad 100%, #7900cc 100%);
+  margin-right: 10px;
 }
 .wlf22 .participants_list a {
-  color: #fff;
+  color: #342ebb;
+}
+.wlf22 .participants_list a:hover {
+  color: #0573ad;
+  text-decoration: underline;
+}
+.wlf22 .participants_list .name {
+  display: inline-block;
 }
 
 /* end constellations */

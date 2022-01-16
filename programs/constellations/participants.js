@@ -81,8 +81,16 @@ function createParticipant(DATA) {
   console.log(numParticipants)
   let htmlHolder = $(".participants_list")
   for (i = 0; i < numParticipants; i++) {
-    if (i < numParticipants) {
-      htmlHolder.append(`<li>${DATA[i].first} ${DATA[i].last}<br><a href="${DATA[i].linky}" target="_blank">${DATA[i].web}</a></li>`)
+    if (i < numParticipants && DATA[i].web == "") {
+      htmlHolder.append(`<li class="showStuff"><div class="avatar"></div>
+      <span class="name">
+      ${DATA[i].first} ${DATA[i].last}</span>
+      <div class="weblinks hide"><a href="${DATA[i].linky}" target="_blank">${DATA[i].web}</a></div></li>`)
+    } else if (i < numParticipants && DATA[i].web != "") {
+      htmlHolder.append(`<li class="showStuff"><div class="avatar"></div>
+      <span class="name colorLink">
+      ${DATA[i].first} ${DATA[i].last}</span>
+      <div class="weblinks hide"><a href="${DATA[i].linky}" target="_blank">${DATA[i].web}</a></div></li>`)
     } else {
       htmlHolder.append(`no participants`)
     }
@@ -90,7 +98,13 @@ function createParticipant(DATA) {
   console.log(htmlHolder)
   return htmlHolder
 }
+function showLinks() {
+  $(".showStuff").click(function () {
+    $(this).find(".weblinks").toggleClass("hide")
+  })
+}
 function init() {
   createParticipant(DATA)
+  showLinks()
 }
 $(init())

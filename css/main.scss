@@ -394,18 +394,36 @@ ul.links-horiz {
 
 /* constellations 22 */
 .wlf22 .participants_list {
+  margin-bottom: 80px;
+  list-style-type: none;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: 1fr;
+  // grid-auto-rows: 1fr;
   grid-gap: 30px;
-  li {
+  .colorLink {
+    color: rgb(5, 115, 173);
+    text-decoration: underline;
+  }
+  .hide {
+    display: none;
+  }
+  .avatar {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
     background: rgb(52, 46, 187);
-    background: linear-gradient(137deg, rgba(52, 46, 187, 1) 0%, rgba(121, 0, 204, 1) 61%, rgba(5, 115, 173, 1) 87%);
-    padding: 50px 30px;
-    color: #fff;
+    background: linear-gradient(137deg, rgba(52, 46, 187, 1) 0%, rgba(5, 115, 173, 1) 100%, rgba(121, 0, 204, 1) 100%);
+    margin-right: 10px;
   }
   a {
-    color: #fff;
+    color: rgb(52, 46, 187);
+  }
+  a:hover {
+    color: rgb(5, 115, 173);
+    text-decoration: underline;
+  }
+  .name {
+    display: inline-block;
   }
 }
 
