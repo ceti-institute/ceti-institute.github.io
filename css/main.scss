@@ -392,6 +392,25 @@ ul.links-horiz {
 
 /* END Nav Two */
 
+/* constellations 22 */
+.wlf22 .participants_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 1fr;
+  grid-gap: 30px;
+  li {
+    background: rgb(52, 46, 187);
+    background: linear-gradient(137deg, rgba(52, 46, 187, 1) 0%, rgba(121, 0, 204, 1) 61%, rgba(5, 115, 173, 1) 87%);
+    padding: 50px 30px;
+    color: #fff;
+  }
+  a {
+    color: #fff;
+  }
+}
+
+/* end constellations */
+
 .contributors {
   padding: 80px 0;
   color: #fff;
@@ -480,6 +499,7 @@ button.btn.light:hover {
   background-color: #fff;
   color: $ceti-orange;
 }
+
 .wlf {
   display: grid;
   grid-template-columns: 1fr;
