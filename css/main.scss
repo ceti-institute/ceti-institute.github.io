@@ -472,8 +472,9 @@ header.branding {
   }
 }
 strong {
-  display: inline-block;
-  margin-top: 18px;
+  // why would I do this?
+  // display: inline-block;
+  // margin-top: 18px;
 }
 a.button.pink,
 button.button.pink {

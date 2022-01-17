@@ -1,3 +1,4 @@
+//participants from https://docs.google.com/spreadsheets/d/1diYFaKSkEImWN75mjc4ihQ6KActnkWCxMdlz4Vfzahc/edit#gid=1812818967
 DATA = [
   { first: "Alain", last: "Bally", email: "alain.bally@gmail.com", web: "", linky: "" },
 
