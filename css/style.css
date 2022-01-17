@@ -425,11 +425,11 @@ ul.links-horiz li {
 }
 .wlf22 .participants_list .avatar {
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   background: #342ebb;
   background: linear-gradient(137deg, #342ebb 0%, #0573ad 100%, #7900cc 100%);
-  margin-right: 10px;
+  margin-right: 6px;
 }
 .wlf22 .participants_list a {
   color: #342ebb;
