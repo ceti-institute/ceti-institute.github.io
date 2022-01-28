@@ -2,15 +2,12 @@
 DATA = [
   { first: "Alain", last: "Bally", web: "", linky: "" },
 
-  { first: "Alanna", last: "Risse", web: "@alannarisse", linky: "http://alannarisse.com" },
-
   { first: "alex", last: "michaluk", web: "", linky: "" },
 
   { first: "Allison", last: "Meechoovet", web: "", linky: "" },
 
-  { first: "Anand", last: "Kailasam", web: "https://www.behance.net/ArkReactor", linky: "https://www.behance.net/ArkReactor" },
+  // { first: "Anand", last: "Kailasam", web: "https://www.behance.net/ArkReactor", linky: "https://www.behance.net/ArkReactor" },
 
-  { first: "BB", last: "Andersson", web: "bbandersson.com/", linky: "http://bbandersson.com/" },
   {
     first: "Benjamin",
     last: "Hencke",
