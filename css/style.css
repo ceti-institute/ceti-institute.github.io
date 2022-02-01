@@ -417,7 +417,7 @@ ul.links-horiz li {
   grid-gap: 30px;
 }
 .wlf22 .participants_list .colorLink {
-  color: #505555;
+  color: #dd0bed;
   text-decoration: underline;
 }
 .wlf22 .participants_list .hide {
@@ -431,7 +431,7 @@ ul.links-horiz li {
   margin-right: 6px;
 }
 .wlf22 .participants_list a {
-  color: #505555;
+  color: #dd0bed;
 }
 .wlf22 .participants_list a:hover {
   color: #e5450a;
