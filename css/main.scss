@@ -401,7 +401,7 @@ ul.links-horiz {
   // grid-auto-rows: 1fr;
   grid-gap: 30px;
   .colorLink {
-    color: rgb(5, 115, 173);
+    color: $ceti-grey;
     text-decoration: underline;
   }
   .hide {
@@ -411,15 +411,15 @@ ul.links-horiz {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background: rgb(52, 46, 187);
-    background: linear-gradient(137deg, rgba(52, 46, 187, 1) 0%, rgba(5, 115, 173, 1) 100%, rgba(121, 0, 204, 1) 100%);
+    background: $ceti-orange;
+
     margin-right: 6px;
   }
   a {
-    color: rgb(52, 46, 187);
+    color: $ceti-grey;
   }
   a:hover {
-    color: rgb(5, 115, 173);
+    color: $ceti-orange;
     text-decoration: underline;
   }
   .name {

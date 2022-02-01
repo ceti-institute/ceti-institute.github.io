@@ -417,7 +417,7 @@ ul.links-horiz li {
   grid-gap: 30px;
 }
 .wlf22 .participants_list .colorLink {
-  color: #0573ad;
+  color: #505555;
   text-decoration: underline;
 }
 .wlf22 .participants_list .hide {
@@ -427,15 +427,14 @@ ul.links-horiz li {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: #342ebb;
-  background: linear-gradient(137deg, #342ebb 0%, #0573ad 100%, #7900cc 100%);
+  background: #e5450a;
   margin-right: 6px;
 }
 .wlf22 .participants_list a {
-  color: #342ebb;
+  color: #505555;
 }
 .wlf22 .participants_list a:hover {
-  color: #0573ad;
+  color: #e5450a;
   text-decoration: underline;
 }
 .wlf22 .participants_list .name {
