@@ -77,9 +77,7 @@ DATA = [
 ]
 
 function createParticipant(DATA) {
-  console.log("populate Participants")
   const numParticipants = DATA.length
-  console.log(numParticipants)
   let htmlHolder = $(".participants_list")
   for (i = 0; i < numParticipants; i++) {
     if (i < numParticipants && DATA[i].web == "") {

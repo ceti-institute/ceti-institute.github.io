@@ -391,7 +391,47 @@ ul.links-horiz {
 }
 
 /* END Nav Two */
-
+.wlf22 .projects_list {
+  margin-bottom: 80px;
+  list-style-type: none;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  .hide {
+    display: none;
+  }
+  img {
+    width: 100%;
+  }
+  .project-cards {
+    overflow: hidden;
+  }
+  .project-info {
+    height: 300px;
+    padding: 40px 20px;
+    width: 300px;
+    color: #fff;
+    background: rgb(229, 69, 10);
+    background: linear-gradient(307deg, rgba(229, 69, 10, 1) 0%, rgba(255, 226, 0, 1) 37%, rgba(221, 12, 237, 1) 63%);
+  }
+  .project-img {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background: rgb(229, 69, 10);
+    background: linear-gradient(307deg, rgba(229, 69, 10, 1) 0%, rgba(255, 226, 0, 1) 37%, rgba(221, 12, 237, 1) 63%);
+  }
+  .proj-title {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-size: 32px;
+    padding: 20px;
+    font-weight: bold;
+  }
+}
 /* constellations 22 */
 .wlf22 .participants_list {
   margin-bottom: 80px;
