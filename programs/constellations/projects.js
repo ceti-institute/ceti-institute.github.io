@@ -1,3 +1,4 @@
+//projects from here https://docs.google.com/spreadsheets/d/1yRlJl3JJ551jLILcs1r9xMDr1ZZcH3VDtgo3Vdhc32o/edit#gid=0
 PROJ_DATA = [
   {
     names: ["Scott Nieradka"],
@@ -5,8 +6,9 @@ PROJ_DATA = [
     medium: "Installation",
     walltag: "Installation, 2022",
     location: "Room 208",
-    src: "",
-    mediaType: ""
+    thumb: "sodium-vapor-lamp.png",
+    src: "https://vimeo.com/675302308",
+    mediaType: "vid"
   },
   {
     names: ["Sean Light, Scott Garner, Joe Kortum, Tanner Johnson"],
@@ -14,8 +16,9 @@ PROJ_DATA = [
     medium: "Installation",
     walltag: "light/paint/wood/small parts, 2022",
     location: "North Critique space",
-    src: "unearthed.png",
-    mediaType: "img"
+    thumb: "unearthed.png",
+    src: "https://vimeo.com/675308317",
+    mediaType: "vid"
   },
   {
     names: ["Michelle Guthrie, Nanda D'Agostino"],
@@ -23,6 +26,7 @@ PROJ_DATA = [
     medium: "Installation, inflatable sculpture, video projection",
     walltag: "Installation, inflatable sculpture, video projection",
     location: "Room 216",
+    thumb: "",
     src: "",
     mediaType: ""
   },
@@ -32,8 +36,9 @@ PROJ_DATA = [
     medium: "Dynamic projection mapped painting",
     walltag: "Dynamic projection mapped painting",
     location: "Painting Studio rm 254",
-    src: "",
-    mediaType: ""
+    thumb: "sottile_untitled.png",
+    src: "sottile_untitled-lg.png",
+    mediaType: "img"
   },
 
   {
@@ -42,6 +47,7 @@ PROJ_DATA = [
     medium: "Projection & mixed media",
     walltag: "Projection & mixed media",
     location: "Room 219",
+    thumb: "",
     src: "",
     mediaType: ""
   },
@@ -51,6 +57,7 @@ PROJ_DATA = [
     medium: "Projection",
     walltag: "Video projection",
     location: "South Critique space",
+    thumb: "",
     src: "",
     mediaType: ""
   },
@@ -60,6 +67,7 @@ PROJ_DATA = [
     medium: "Multi-TV installation",
     walltag: "Processed media on outmoded medium",
     location: "Room 219",
+    thumb: "",
     src: "",
     mediaType: ""
   },
@@ -69,6 +77,7 @@ PROJ_DATA = [
     medium: "AR Digital Art",
     walltag: "AR Digital Art",
     location: "North Hallway middle",
+    thumb: "cold-moon.png",
     src: "cold-moon.png",
     mediaType: "img"
   },
@@ -78,8 +87,9 @@ PROJ_DATA = [
     medium: "Projection",
     walltag: "Interactive projection",
     location: "North Hallway East",
-    src: "",
-    mediaType: ""
+    thumb: "hello-ceti.png",
+    src: "hello-ceti.png",
+    mediaType: "img"
   },
   {
     names: ["David Lobser"],
@@ -87,8 +97,9 @@ PROJ_DATA = [
     medium: "Projection & VR",
     walltag: "VR artwork and projection",
     location: "North Critique Space",
-    src: "",
-    mediaType: ""
+    thumb: "cosmic-sugar.png",
+    src: "cosmic-sugar-lg.png",
+    mediaType: "img"
   },
   {
     names: ["Helen Leigh", "Jerry Belich"],
@@ -96,6 +107,7 @@ PROJ_DATA = [
     medium: "Soft sculpture with LED animation",
     walltag: "Soft sculpture with LED animation",
     location: "FMH Mezzanine",
+    thumb: "",
     src: "",
     mediaType: ""
   },
@@ -106,6 +118,7 @@ PROJ_DATA = [
     medium: "Installation + Projection",
     walltag: "Interactive projection",
     location: "South Critique Space",
+    thumb: "",
     src: "",
     mediaType: ""
   },
@@ -115,6 +128,7 @@ PROJ_DATA = [
     medium: "Small Sculpture",
     walltag: "Light-up Sculpture",
     location: "West hallway across from critique room",
+    thumb: "",
     src: "",
     mediaType: ""
   },
@@ -124,8 +138,9 @@ PROJ_DATA = [
     medium: "Installation",
     walltag: "Light-Up Sculpture",
     location: "219",
-    src: "interactive-light-display.png",
-    mediaType: "img"
+    thumb: "interactive-light-display.png",
+    src: "https://vimeo.com/675307223",
+    mediaType: "vid"
   },
   {
     names: ["Laurel Jensen"],
@@ -133,16 +148,27 @@ PROJ_DATA = [
     medium: "Projection",
     walltag: "Projection",
     location: "Room 243 Sewing Studio",
-    src: "untangled-dragons.png",
+    thumb: "untangled-dragons.png",
+    src: "untangled-dragons-lg.png",
     mediaType: "img"
   },
-
+  {
+    names: ["Scott Garner"],
+    project: "Spherical Glow",
+    medium: "Projection",
+    walltag: "Projection",
+    location: "Room 218",
+    thumb: "spherical-glow.png",
+    src: "spherical-glow-lg.png",
+    mediaType: "img"
+  },
   {
     names: ["Laurel Jensen", "Brad Anderson", "Dan Good", "Francesca Frattaroli"],
     project: "Jabberwocky Having Tea with the Octopus",
     medium: "Sculpture and mixed media",
     walltag: "3D Printed Light-Up Scupture.",
-    location: "Room 232 Conference Room",
+    location: "Room 232",
+    thumb: "jabberwocky.png",
     src: "jabberwocky.png",
     mediaType: "img"
   },
@@ -153,26 +179,29 @@ PROJ_DATA = [
     medium: "AR artwork",
     walltag: "AR artwork using the Eyelnd Feevr app",
     location: "North Hall West",
+    thumb: "",
     src: "",
     mediaType: ""
   },
   {
     names: ["Jesse England"],
-    project: "Untitled",
+    project: "Loop",
     medium: "Plastic, LED lights",
     walltag: "Plastic, LED lights",
     location: "219",
-    src: "",
-    mediaType: ""
+    thumb: "loop.png",
+    src: "loop_lg.png",
+    mediaType: "img"
   },
   {
     names: ["Eric Reiter"],
-    project: "Untited",
+    project: "Wobbly",
     medium: "SD video, 14 min. looped, CRT display",
     walltag: "SD video, 14 min. looped, CRT display",
     location: "Space under south stairs to Mezzanine",
-    src: "",
-    mediaType: ""
+    thumb: "wobbly.png",
+    src: "https://vimeo.com/675290916",
+    mediaType: "vid"
   }
   //  {
   //   names:[],
@@ -180,6 +209,7 @@ PROJ_DATA = [
   //   medium:'',
   //   walltag: '',
   //   location:'',
+  //thumb: '',
   //src: '',
   //mediaType: ''
   // },
@@ -189,9 +219,9 @@ function createProject(PROJ_DATA) {
   const numProjects = PROJ_DATA.length
   let htmlPrHolder = $(".projects_list")
   for (i = 0; i < numProjects; i++) {
-    if (PROJ_DATA[i].src) {
+    if (PROJ_DATA[i].src && PROJ_DATA[i].mediaType == "img") {
       htmlPrHolder.append(`<li class="project-cards"><div class="project-img">
-    <img class="proj-pic" src="/images/wlf22/${PROJ_DATA[i].src}">
+    <img class="proj-pic" src="/images/wlf22/${PROJ_DATA[i].thumb}">
     <span class="proj-title">${PROJ_DATA[i].project}</span>
     </div>
       <div class="project-info hide">
@@ -199,8 +229,22 @@ function createProject(PROJ_DATA) {
       <strong>Project Name:</strong> 
       ${PROJ_DATA[i].project}<br>
       <strong>Medium:</strong> ${PROJ_DATA[i].medium}<br>
-      <strong>Location:</strong> ${PROJ_DATA[i].location}
+      <strong>Location:</strong> ${PROJ_DATA[i].location}<br>
+      <a class="example-image-link" href="/images/wlf22/${PROJ_DATA[i].src}" data-lightbox="example-set" data-title="${PROJ_DATA[i].project} by ${PROJ_DATA[i].names}">View Image</a>
       </div>
+      </li>`)
+    } else if (PROJ_DATA[i].src && PROJ_DATA[i].mediaType == "vid") {
+      htmlPrHolder.append(`<li class="project-cards"><div class="project-img">
+    <img class="proj-pic" src="/images/wlf22/${PROJ_DATA[i].thumb}">
+    <span class="proj-title">${PROJ_DATA[i].project}</span>
+    </div>
+      <div class="project-info hide">
+      <p><strong>Team:</strong> ${PROJ_DATA[i].names}<br>
+      <strong>Project Name:</strong> 
+      ${PROJ_DATA[i].project}<br>
+      <strong>Medium:</strong> ${PROJ_DATA[i].medium}<br>
+      <strong>Location:</strong> ${PROJ_DATA[i].location}<br>
+      <a href="${PROJ_DATA[i].src}" target="_blank">View Video</a>
       </li>`)
     } else {
       htmlPrHolder.append(`<li class="project-cards"><div class="project-img">
@@ -225,6 +269,27 @@ function showInfo() {
     $(this).find(".project-info").toggleClass("hide")
   })
 }
+$(document).ready(function () {
+  var $videoSrc
+  $(".video-btn").click(function () {
+    $videoSrc = $(this).data("src")
+  })
+  console.log($videoSrc)
+
+  // when the modal is opened autoplay it
+  $("#myModal").on("shown.bs.modal", function (e) {
+    // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+    $("#video").attr("src", $videoSrc + "?autoplay=1&muted=1")
+  })
+
+  // stop playing the youtube video when I close the modal
+  $("#myModal").on("hide.bs.modal", function (e) {
+    // a poor man's stop video
+    $("#video").attr("src", $videoSrc)
+  })
+
+  // document ready
+})
 
 function init() {
   createProject(PROJ_DATA)
