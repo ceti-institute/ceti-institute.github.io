@@ -219,6 +219,7 @@ function createProject(PROJ_DATA) {
   const numProjects = PROJ_DATA.length
   let htmlPrHolder = $(".projects_list")
   for (i = 0; i < numProjects; i++) {
+    //spits out html for projects with images
     if (PROJ_DATA[i].src && PROJ_DATA[i].mediaType == "img") {
       htmlPrHolder.append(`<li class="project-cards"><div class="project-img">
     <img class="proj-pic" src="/images/wlf22/${PROJ_DATA[i].thumb}">
@@ -233,6 +234,7 @@ function createProject(PROJ_DATA) {
       <a class="example-image-link" href="/images/wlf22/${PROJ_DATA[i].src}" data-lightbox="example-set" data-title="${PROJ_DATA[i].project} by ${PROJ_DATA[i].names}">View Image</a>
       </div>
       </li>`)
+      //spits out html for projects with videos
     } else if (PROJ_DATA[i].src && PROJ_DATA[i].mediaType == "vid") {
       htmlPrHolder.append(`<li class="project-cards"><div class="project-img">
     <img class="proj-pic" src="/images/wlf22/${PROJ_DATA[i].thumb}">
@@ -246,6 +248,7 @@ function createProject(PROJ_DATA) {
       <strong>Location:</strong> ${PROJ_DATA[i].location}<br>
       <a href="${PROJ_DATA[i].src}" target="_blank">View Video</a>
       </li>`)
+      //spits out html for projects without images or videos
     } else {
       htmlPrHolder.append(`<li class="project-cards"><div class="project-img">
     <span class="proj-title">${PROJ_DATA[i].project}</span>
