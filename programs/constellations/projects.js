@@ -121,18 +121,18 @@ PROJ_DATA = [
     src: "cosmic-sugar-lg.png",
     mediaType: "img"
   },
-  {
-    names: ["Helen Leigh", "Jerry Belich"],
-    project: "My Own Personal Thundercloud",
-    desc: "",
-    bio1: "",
-    bio2: "",
-    medium: "Soft sculpture with LED animation",
-    walltag: "Soft sculpture with LED animation",
-    thumb: "",
-    src: "",
-    mediaType: ""
-  },
+  // {
+  //   names: ["Helen Leigh", "Jerry Belich"],
+  //   project: "My Own Personal Thundercloud",
+  //   desc: "",
+  //   bio1: "",
+  //   bio2: "",
+  //   medium: "Soft sculpture with LED animation",
+  //   walltag: "Soft sculpture with LED animation",
+  //   thumb: "",
+  //   src: "",
+  //   mediaType: ""
+  // },
 
   {
     names: ["Zack Marlow", "Ayse Gursoz"],
@@ -146,18 +146,18 @@ PROJ_DATA = [
     src: "",
     mediaType: ""
   },
-  {
-    names: ["Laurel Jensen", "Brad Anderson"],
-    project: "Flowers with Attitude",
-    desc: "",
-    bio1: "",
-    bio2: "",
-    medium: "Small Sculpture",
-    walltag: "Light-up Sculpture",
-    thumb: "",
-    src: "",
-    mediaType: ""
-  },
+  // {
+  //   names: ["Laurel Jensen", "Brad Anderson"],
+  //   project: "Flowers with Attitude",
+  //   desc: "",
+  //   bio1: "",
+  //   bio2: "",
+  //   medium: "Small Sculpture",
+  //   walltag: "Light-up Sculpture",
+  //   thumb: "",
+  //   src: "",
+  //   mediaType: ""
+  // },
   {
     names: ["Brad Anderson"],
     project: "Interactive Living Light Display",
