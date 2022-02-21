@@ -191,12 +191,11 @@ a {
 
 /* default info button */
 .info-button-div {
-  position: absolute;
-  right: 50px;
-  top: 20px;
   display: inline-block;
-  max-width: 32px;
-  max-height: 32px;
+  max-width: 56px;
+  max-height: 56px;
+  border: 2px solid red;
+  width: 60px;
 }
 
 svg.info-button {
@@ -443,7 +442,6 @@ ul.links-horiz li {
 }
 .wlf22 .projects_list .project-cards {
   overflow: hidden;
-  position: relative;
 }
 .wlf22 .projects_list a {
   color: #fff;

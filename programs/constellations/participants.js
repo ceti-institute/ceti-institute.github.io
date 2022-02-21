@@ -32,6 +32,7 @@ let DATA = [
   { first: "JJ", last: "Vazquez", web: "www.locomotionshoots.com", linky: "http://www.locomotionshoots.com" },
   { first: "Julie", last: "Perini", web: "www.julieperini.com", linky: "http://www.julieperini.com" },
   { first: "Justin", last: "Patrizi", web: "", linky: "" },
+  
   { first: "Karl", last: "Benjamin", web: "", linky: "" },
   { first: "Keenan", last: "McCune", web: "@symmetriccollective", linky: "https://www.instagram.com/symmetriccollective/" },
   { first: "Layna", last: "Lewis", web: "@elevengallonhead https://www.instagram.com/vivalafreepdx/", linky: "https://www.instagram.com/vivalafreepdx/" },

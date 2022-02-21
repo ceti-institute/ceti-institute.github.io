@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
 
 /* Global colors */
 
@@ -20,7 +20,7 @@ html {
 }
 body {
   margin: 0;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   color: #2a2a2a;
 }
@@ -30,18 +30,18 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Source Code Pro", monospace;
+  font-family: 'Source Code Pro', monospace;
 }
 
 h1 {
-  font-family: "Source Code Pro", sans-serif;
+  font-family: 'Source Code Pro', sans-serif;
   text-transform: none;
   font-weight: 700;
   font-size: 60px;
   line-height: 1.2em;
 }
 h2 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 44px;
   font-weight: 400;
   margin-top: 0;
@@ -54,13 +54,13 @@ h2 {
 }
 .home-page {
   h2 {
-    font-family: "Source Code Pro", sans-serif;
+    font-family: 'Source Code Pro', sans-serif;
     text-transform: unset;
     font-weight: 700;
     margin-bottom: 0;
   }
   h3 {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     margin-top: 0;
   }
@@ -181,6 +181,25 @@ a {
   }
 }
 
+/* default info button */
+.info-button-div {
+  position: absolute;
+  right: 50px;
+  top: 20px;
+  display: inline-block;
+  max-width: 32px;
+  max-height: 32px;
+}
+svg.info-button {
+  width: 100%;
+  .info-circle {
+    stroke: $ceti-black;
+  }
+  .info-char {
+    fill: $ceti-black;
+  }
+}
+
 ul.links-horiz {
   display: flex;
   width: auto;
@@ -202,7 +221,7 @@ ul.links-horiz {
   padding-bottom: 0px;
 }
 .hero {
-  background-image: url("../images/heros/wlf-ceti-blue-green.png");
+  background-image: url('../images/heros/wlf-ceti-blue-green.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 75% 50%;
@@ -210,7 +229,7 @@ ul.links-horiz {
   width: 100vw;
 }
 .home-page .hero {
-  background-image: url("../images/heros/wlf-game.png");
+  background-image: url('../images/heros/wlf-game.png');
 }
 .enchanted-page {
   a {
@@ -357,7 +376,7 @@ ul.links-horiz {
 
 .hamburger:before,
 .hamburger:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 40px;
   height: 4px;
@@ -405,6 +424,7 @@ ul.links-horiz {
   }
   .project-cards {
     overflow: hidden;
+    position: relative;
   }
   a {
     color: #fff;
@@ -606,7 +626,7 @@ button.btn.light:hover {
     width: 90%;
     margin: auto;
   }
-  background-image: url("../wlf2020/images/banner.jpg");
+  background-image: url('../wlf2020/images/banner.jpg');
   background-size: cover;
   background-position: bottom;
   padding: 4em 0;
@@ -783,7 +803,7 @@ section .inner {
 
 .hamburger:before,
 .hamburger:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 40px;
   height: 4px;
@@ -823,7 +843,7 @@ section .inner {
   right: 0;
   z-index: 999;
   padding-top: 20px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
 }
 
@@ -1003,7 +1023,7 @@ footer > div {
     margin-bottom: 0;
   }
   h2 {
-    font-family: "Source Sans Pro";
+    font-family: 'Source Sans Pro';
     font-size: 32px;
     font-weight: 400;
     text-transform: capitalize;
@@ -1193,7 +1213,7 @@ section #subscribe-form div {
     display: none;
   }
   .hero {
-    background-image: url("../images/heros/wlf-ceti-blue-green.png");
+    background-image: url('../images/heros/wlf-ceti-blue-green.png');
     background-position: 0 20px;
   }
   header.branding {
@@ -1364,7 +1384,7 @@ section #subscribe-form div {
       padding: 0;
       margin: 0;
       width: 100%;
-      font-family: "Source Code Pro";
+      font-family: 'Source Code Pro';
       font-size: 24px;
       font-weight: 400;
       color: $ceti-black;
