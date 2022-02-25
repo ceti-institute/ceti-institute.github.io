@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
 /* Global colors */
 /* END Global colors */
 /* Global Styles */
@@ -226,7 +226,7 @@ ul.links-horiz li {
 }
 
 .hero {
-  background-image: url("../images/heros/wlf-ceti-blue-green.png");
+  background-image: url('../images/heros/wlf-ceti-blue-green.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 75% 50%;
@@ -235,7 +235,7 @@ ul.links-horiz li {
 }
 
 .home-page .hero {
-  background-image: url("../images/heros/wlf-game.png");
+  background-image: url('../images/heros/wlf-game.png');
 }
 
 .enchanted-page a {
@@ -658,7 +658,7 @@ button.btn.light:hover {
 }
 
 .wlf-link {
-  background-image: url("../wlf2020/images/banner.jpg");
+  background-image: url('../wlf2020/images/banner.jpg');
   background-size: cover;
   background-position: bottom;
   padding: 4em 0;
@@ -1301,7 +1301,7 @@ section #subscribe-form div {
     display: none;
   }
   .hero {
-    background-image: url("../images/heros/wlf-ceti-blue-green.png");
+    background-image: url('../images/heros/wlf-ceti-blue-green.png');
     background-position: 0 20px;
   }
   header.branding {

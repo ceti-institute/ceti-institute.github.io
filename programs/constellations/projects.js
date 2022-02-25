@@ -77,7 +77,7 @@ PROJ_DATA = [
     walltag: 'Video projection',
     thumb: '',
     src: '',
-    mediaType: ''
+    mediaType: 'img'
   },
   {
     names: ['Justin Patrizi'],
@@ -88,8 +88,8 @@ PROJ_DATA = [
     url: '',
     medium: 'Multi-TV installation',
     walltag: 'Processed media on outmoded medium',
-    thumb: '',
-    src: '',
+    thumb: 'waveconduit.png',
+    src: 'waveconduit.png',
     mediaType: ''
   },
   {
@@ -271,28 +271,37 @@ function createProject(PROJ_DATA) {
   let htmlPrHolder = $('.projects_list')
   for (i = 0; i < numProjects; i++) {
     //spits out html for projects with images
-    if (PROJ_DATA[i].src) {
-      htmlPrHolder.append(`<li class="project-cards"><div class="project-img">
-    <img class="proj-pic" src="/images/wlf22/${PROJ_DATA[i].thumb}">
-    </div>
+    if (PROJ_DATA[i].src != '') {
+      htmlPrHolder.append(`<li class="project-cards">
+      
       <div class="project-info hide">
       ${PROJ_DATA[i].names}<br>
       ${PROJ_DATA[i].project}<br>
       ${PROJ_DATA[i].medium}<br>
-      <div class="info-button-div"><img src="/images/icons/info-button.svg"></div>
+        <div class="info-button-div">
+          <img src="/images/icons/info-button.svg">
+        </div>
       </div>
+      <div class="project-img">
+        <img class="proj-pic" src="/images/wlf22/${PROJ_DATA[i].thumb}">
+      </div>
+      
       </li>`)
     } else {
-      htmlPrHolder.append(`<li class="project-cards"><div class="project-img">
-    <span class="proj-title">${PROJ_DATA[i].project}</span>
-    </div>
+      htmlPrHolder.append(`<li class="project-cards">
+      
       <div class="project-info hide">
       <p>${PROJ_DATA[i].names}<br>
       ${PROJ_DATA[i].project}<br>
       ${PROJ_DATA[i].medium}<br>
       <div class="info-button-div"><img src="/images/icons/info-button.svg"></div>
+      
       </div>
-      </li>`)
+      <div class="project-img">
+    <span class="proj-title">${PROJ_DATA[i].project}</span>
+    </div>
+    </li>
+      `)
     }
   }
   console.log(htmlPrHolder)
@@ -304,27 +313,6 @@ function showInfo() {
     $(this).find('.project-info').toggleClass('hide')
   })
 }
-$(document).ready(function () {
-  var $videoSrc
-  $('.video-btn').click(function () {
-    $videoSrc = $(this).data('src')
-  })
-  console.log($videoSrc)
-
-  // when the modal is opened autoplay it
-  $('#myModal').on('shown.bs.modal', function (e) {
-    // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
-    $('#video').attr('src', $videoSrc + '?autoplay=1&muted=1')
-  })
-
-  // stop playing the youtube video when I close the modal
-  $('#myModal').on('hide.bs.modal', function (e) {
-    // a poor man's stop video
-    $('#video').attr('src', $videoSrc)
-  })
-
-  // document ready
-})
 
 function init() {
   createProject(PROJ_DATA)

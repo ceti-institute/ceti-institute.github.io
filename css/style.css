@@ -60,6 +60,10 @@ h2 {
   margin-top: 0;
 }
 
+.hide {
+  display: none;
+}
+
 figure {
   margin: 0;
 }
@@ -192,11 +196,15 @@ a {
 /* default info button */
 .info-button-div {
   position: absolute;
-  right: 50px;
+  display: none;
+  right: 80px;
   top: 20px;
-  display: inline-block;
   max-width: 32px;
   max-height: 32px;
+  z-index: 100;
+}
+.info-button-div:hover {
+  border: 4px solid white;
 }
 
 svg.info-button {
@@ -433,7 +441,7 @@ ul.links-horiz li {
   list-style-type: none;
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 .wlf22 .projects_list .hide {
   display: none;
