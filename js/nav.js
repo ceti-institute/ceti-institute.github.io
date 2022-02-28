@@ -1,9 +1,10 @@
-"use strict"
+'use strict'
 
 function topNavList() {
-  $("#topnavlist").html(`
+  $('#topnavlist').html(`
   <ul>
     <li><a href="/about">About</a></li>
+    <li><a href="/community">Community</a></li> 
     <li><a href="/programs">Programs</a>
           <ul>
             <li><a href="/programs/enchanted-tech">Enchanted Tech</a></li>
@@ -13,14 +14,15 @@ function topNavList() {
             <li><a href="/programs/constellations">Winter Light Festival</a></li>
           </ul>
     </li>
-    <li><a href="/community">Community</a></li>      
+    <li><a href="/learn">Workshops</a></li>
+    <li><a href="/techlab">Lab</a></li>        
   </ul>
   `)
 }
 // removed this for now <li><a href="/news">News</a></li>
 
 function mobileNav() {
-  $("#mobilenavlist").html(`
+  $('#mobilenavlist').html(`
       <div class="icon">
         <div class="hamburger"></div>
       </div>
@@ -33,19 +35,21 @@ function mobileNav() {
         <a href="/device-sharing">Device Sharing</a>
         <a href="/programs/constellations">Winter Light Festival</a>
       <strong><a href="/community">Community</a></strong>
+      <strong><a href="/learn">Workshops</a></strong>
+    <strong><a href="/techlab">Lab</a> </strong>
       </div>
     `)
 }
 // removed this for now <strong><a href="/news">News</a></strong>
 
 function footerNav() {
-  $("footer div").html(
+  $('footer div').html(
     `<div class="left">
     <a href="https://www.facebook.com/CETI.Institute/" target="_blank"><img src="/images/icons/facebook.png" /></a>
     <a href="https://www.instagram.com/ceti.institute/" target="_blank"><img src="/images/icons/instagram1.png" /></a>
     <a href="https://twitter.com/ceti_institute" target="_blank"><img src="/images/icons/twitter1.png" /></a>
     <a href="https://www.youtube.com/channel/UCNORXg1dJPQDrRy_slCEOMA" target="_blank"><img src="/images/icons/youtube.png" /></a>
-    <a href="https://calendar.google.com/calendar/embed?src=hello%40ceti.institute&ctz=America%2FLos_Angeles" target="_blank"><img src="/images/icons/calendar.png" /></a>
+    <a href="/techlab/index.html#calendar" ><img src="/images/icons/calendar.png" /></a>
     </div>
     <div class="right">
       <a href="/newsletter">newsletter</a> &nbsp;
@@ -57,22 +61,22 @@ function footerNav() {
 }
 
 function toggleIcon() {
-  $(".icon").on("click", function () {
-    $(".icon").toggleClass("active")
-    $(".menu-mobile").slideToggle(300)
+  $('.icon').on('click', function () {
+    $('.icon').toggleClass('active')
+    $('.menu-mobile').slideToggle(300)
   })
 }
 
 function closeMobileMenu() {
-  $(".menu-mobile").on("click", "a", function () {
-    $(".icon").trigger("click")
+  $('.menu-mobile').on('click', 'a', function () {
+    $('.icon').trigger('click')
   })
 }
 
 // handle links with @href started with '#' only
-$(document).on("click", 'a[href^="#"]', function (e) {
+$(document).on('click', 'a[href^="#"]', function (e) {
   // target element id
-  var id = $(this).attr("href")
+  var id = $(this).attr('href')
 
   // target element
   var $id = $(id)
@@ -87,7 +91,7 @@ $(document).on("click", 'a[href^="#"]', function (e) {
   var pos = $id.offset().top
 
   // animated top scrolling
-  $("body, html").animate({ scrollTop: pos })
+  $('body, html').animate({ scrollTop: pos })
 })
 
 //when the page loads call these;

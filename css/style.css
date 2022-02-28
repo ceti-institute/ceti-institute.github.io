@@ -1037,6 +1037,30 @@ footer > div {
   font-size: 12px;
 }
 
+/* tech lab and learn pages */
+#googlecal {
+  width: 80%;
+  margin-left: 10%;
+  height: 90vh;
+  aspect-ratio: 16/9;
+}
+
+#calendar:target:before {
+  content: "";
+  display: block;
+  height: 60px;
+  margin: -60px 0 0;
+}
+
+#techlab-page section a,
+#learn-page section a:not(.button) {
+  color: #e5450a;
+}
+#techlab-page section a:hover,
+#learn-page section a:not(.button):hover {
+  color: #000fbd;
+}
+
 .person-page h1 {
   font-size: 44px;
   text-transform: capitalize;
@@ -1243,7 +1267,7 @@ section #subscribe-form div {
 }
 
 /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block. */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 836px) {
   .mobile-only {
     display: none;
   }

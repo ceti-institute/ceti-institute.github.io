@@ -543,11 +543,7 @@ header.branding {
     margin-top: -18px;
   }
 }
-strong {
-  // why would I do this?
-  // display: inline-block;
-  // margin-top: 18px;
-}
+
 a.button.pink,
 button.button.pink {
   border-color: #fff;
@@ -1024,6 +1020,26 @@ footer > div {
   }
 }
 
+/* tech lab and learn pages */
+#googlecal {
+  width: 80%;
+  margin-left: 10%;
+  height: 90vh;
+  aspect-ratio: 16/9;
+}
+#calendar:target:before {
+  content: '';
+  display: block;
+  height: 60px;
+  margin: -60px 0 0;
+}
+#techlab-page section a,
+#learn-page section a:not(.button) {
+  color: $ceti-orange;
+  &:hover {
+    color: #000fbd;
+  }
+}
 .person-page {
   h1 {
     font-size: 44px;
@@ -1209,7 +1225,7 @@ section #subscribe-form div {
 }
 /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block. */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 836px) {
   .mobile-only {
     display: none;
   }
