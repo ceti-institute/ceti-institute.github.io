@@ -2,9 +2,12 @@
   "folders": [
     {
       "path": "."
+    },
+    {
+      "path": "../mira"
     }
   ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "nicole-tong.github.io"
+    "liveServer.settings.multiRootWorkspaceName": "mira"
   }
 }
