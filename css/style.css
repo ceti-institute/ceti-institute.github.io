@@ -1016,6 +1016,19 @@ footer > div {
 }
 
 /* END OF Text over an images */
+#intro {
+  position: relative;
+}
+#intro .header-hero-text {
+  position: absolute;
+  top: 100px;
+  left: 80px;
+}
+#intro .header-hero-text h1,
+#intro .header-hero-text h2 {
+  color: #fff;
+}
+
 .blog-page .grid {
   width: 80%;
   margin: 60px auto;
