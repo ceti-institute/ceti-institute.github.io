@@ -7,7 +7,7 @@ function topNavList() {
     <li><a href="/community">Community</a></li> 
     <li><a href="/programs">Programs</a>
           <ul>
-            <li><a href="/programs/enchanted-tech">Enchanted Tech</a></li>
+            <li><a href="/programs/enchanted-tech-22">Enchanted Tech</a></li>
             <li><a href="/programs/xrchive">XRchive</a></li>
             <li><a href="/gallery-of-the-future/">Gallery of the Future</a></li>
             <li><a href="/device-sharing">Device Sharing</a></li>
@@ -29,7 +29,7 @@ function mobileNav() {
       <div class="menu-mobile">
       <strong><a href="/about">About</a></strong>
       <strong><a href="/programs">Programs</a></strong>
-        <a href="/programs/enchanted-tech">Enchanted Tech</a>
+        <a href="/programs/enchanted-tech-22">Enchanted Tech</a>
         <a href="/programs/xrchive">XRchive</a>
         <a href="/gallery-of-the-future/">Gallery of the Future</a>
         <a href="/device-sharing">Device Sharing</a>
