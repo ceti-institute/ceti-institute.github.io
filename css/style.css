@@ -252,6 +252,12 @@ ul.links-horiz li {
   background-image: url("../images/heros/wlf-game.png");
 }
 
+.enchanted-page footer a {
+  color: #fff;
+}
+.enchanted-page footer a:hover {
+  text-decoration: none;
+}
 .enchanted-page a {
   color: #e5450a;
 }
