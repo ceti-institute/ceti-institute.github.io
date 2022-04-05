@@ -101,8 +101,12 @@ p {
 }
 
 a {
+  color: #e5450a;
   text-decoration: none;
-  color: #505555;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .orange {

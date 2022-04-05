@@ -99,9 +99,13 @@ h5 {
 p {
   line-height: 1.4em;
 }
+
 a {
+  color: $ceti-orange;
   text-decoration: none;
-  color: $ceti-grey;
+}
+a:hover {
+  text-decoration: underline;
 }
 .orange {
   background-color: $ceti-orange;
