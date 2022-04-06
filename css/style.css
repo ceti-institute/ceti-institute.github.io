@@ -42,6 +42,11 @@ h2 {
   line-height: 1.2em;
 }
 
+.orange-text {
+  color: #e5450a;
+  font-weight: bold;
+}
+
 .caps {
   text-transform: uppercase;
   margin-bottom: 0;
