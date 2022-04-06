@@ -1132,6 +1132,11 @@ section.gof figure {
   margin: 0;
 }
 
+section.gof a {
+  color: #fff;
+  text-decoration: underline;
+}
+
 section.constellations {
   background-color: #382abb;
 }
