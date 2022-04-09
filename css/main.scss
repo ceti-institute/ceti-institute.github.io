@@ -600,7 +600,10 @@ button.btn.light:hover {
   background-color: #fff;
   color: $ceti-orange;
 }
-
+.orange-light .button:hover {
+  background-color: $ceti-grey;
+  color: #fff;
+}
 .wlf {
   display: grid;
   grid-template-columns: 1fr;
@@ -1142,7 +1145,7 @@ section.constellations {
   color: $ceti-orange;
 }
 #xrchive-page .light a:hover {
-  color: $ceti-grey;
+  color: #fff;
 }
 section.events {
   background: #99adad;
