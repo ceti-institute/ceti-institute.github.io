@@ -944,6 +944,7 @@ footer .left a:hover {
 }
 footer .right a:hover {
   border-bottom: 2px solid #fff;
+  text-decoration: none;
 }
 footer .inner {
   width: 80%;
