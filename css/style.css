@@ -1178,6 +1178,10 @@ section.constellations .button.light:hover {
 }
 
 #xrchive-page .light a:hover {
+  color: #505555;
+}
+
+#xrchive-page .light a.button:hover {
   color: #fff;
 }
 
