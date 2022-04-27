@@ -53,6 +53,7 @@ function footerNav() {
     </div>
     <div class="right">
       <a href="/newsletter">newsletter</a> &nbsp;<a href="/donate">donate</a> &nbsp;
+      <a href="/events/2022/seed">events</a> &nbsp;
       <a href="https://www.google.com/url?q=https://docs.google.com/document/d/1JtNCIvxhhIJV5qav-BQsP0WRljAPQRi8vtfIENG9Bm8/edit?usp%3Dsharing&sa=D&source=editors&ust=1635383362779000&usg=AOvVaw0BJTeaszReP_Mh6Kl3FvA9" target="_blank">code of conduct</a> &nbsp;
       <a href="mailto:hello@ceti.institute">hello@ceti.institute</a> 
     </div>
