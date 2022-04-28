@@ -1174,6 +1174,11 @@ section.constellations .button.light:hover {
   background-color: #fff;
 }
 
+.seed h2.title {
+  color: #e5450a;
+  font-style: italic;
+}
+
 #xrchive-page .light a {
   color: #e5450a;
 }
