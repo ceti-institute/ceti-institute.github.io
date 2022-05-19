@@ -662,6 +662,12 @@ button.btn.light:hover {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   width: 100%;
 }
+.gallery.newsgallery .button {
+  color: #e5450a;
+}
+.gallery.newsgallery .button:hover {
+  color: #fff;
+}
 
 .gallery.sponsors {
   grid-row-gap: 20px;
@@ -1106,6 +1112,11 @@ footer > div {
   font-weight: 400;
   text-transform: capitalize;
   margin-top: 0;
+}
+
+p,
+li {
+  line-break: loose;
 }
 
 section.gof {

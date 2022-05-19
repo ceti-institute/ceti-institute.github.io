@@ -636,6 +636,12 @@ button.btn.light:hover {
 .gallery.newsgallery {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   width: 100%;
+  .button {
+    color: $ceti-orange;
+  }
+  .button:hover {
+    color: #fff;
+  }
 }
 
 .gallery.sponsors {
@@ -1084,6 +1090,10 @@ footer > div {
     text-transform: capitalize;
     margin-top: 0;
   }
+}
+p,
+li {
+  line-break: loose;
 }
 section.gof {
   background-color: #ff3464;
