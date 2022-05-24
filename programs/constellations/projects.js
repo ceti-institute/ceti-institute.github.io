@@ -35,9 +35,9 @@ PROJ_DATA = [
     url: '',
     medium: 'Installation, inflatable sculpture, video projection',
     walltag: 'Installation, inflatable sculpture, video projection',
-    thumb: '',
-    src: '',
-    mediaType: ''
+    thumb: 'restore.png',
+    src: 'restore.png',
+    mediaType: 'img'
   },
   {
     names: ['Matt Sottile'],
@@ -75,8 +75,8 @@ PROJ_DATA = [
     url: 'https://www.fernandadagostino.com/',
     medium: 'Projection',
     walltag: 'Video projection',
-    thumb: '',
-    src: '',
+    thumb: 'resist.jpg',
+    src: 'resist.jpg',
     mediaType: 'img'
   },
   {
