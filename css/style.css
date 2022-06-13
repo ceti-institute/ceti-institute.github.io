@@ -47,6 +47,11 @@ h2 {
   font-weight: bold;
 }
 
+h2.orange-text {
+  color: #e5450a;
+  font-weight: 400;
+}
+
 .caps {
   text-transform: uppercase;
   margin-bottom: 0;
@@ -79,6 +84,12 @@ img {
 
 hr {
   margin: 80px 0;
+}
+
+blockquote {
+  line-height: 1.6em;
+  font-size: 22px;
+  margin-bottom: 120px;
 }
 
 img.logo {
@@ -978,6 +989,10 @@ footer svg:hover {
   background-color: #fff;
 }
 
+.hide-desktop {
+  display: none;
+}
+
 footer > div {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1306,6 +1321,15 @@ section.events div.title {
     display: block;
     padding-left: 0;
     padding-right: 0;
+  }
+}
+@media (max-width: 768px) {
+  .enchanted-page .header-hero-text {
+    display: none;
+  }
+
+  .hide-desktop {
+    display: block;
   }
 }
 /* end video modal */
