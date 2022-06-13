@@ -76,6 +76,7 @@ h2.orange-text {
 
 figure {
   margin: 0;
+  overflow: hidden;
 }
 
 img {
@@ -283,6 +284,9 @@ ul.links-horiz li {
 }
 .enchanted-page a:hover {
   text-decoration: underline;
+}
+.enchanted-page figure {
+  margin-top: 80px;
 }
 
 .about {
@@ -1069,6 +1073,24 @@ footer > div {
 #intro .header-hero-text h1,
 #intro .header-hero-text h2 {
   color: #fff;
+}
+
+.subsection {
+  position: relative;
+}
+.subsection .header-hero-text {
+  position: absolute;
+  top: 30%;
+  left: 120px;
+}
+.subsection .header-hero-text h1,
+.subsection .header-hero-text h2 {
+  color: #fff;
+}
+
+.eventbrite {
+  background-color: #99adad;
+  padding-bottom: 80px;
 }
 
 .blog-page .grid {

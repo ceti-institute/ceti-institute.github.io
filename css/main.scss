@@ -78,6 +78,7 @@ h2.orange-text {
 }
 figure {
   margin: 0;
+  overflow: hidden;
 }
 img {
   width: 100%;
@@ -266,6 +267,9 @@ ul.links-horiz {
   }
   a:hover {
     text-decoration: underline;
+  }
+  figure {
+    margin-top: 80px;
   }
 }
 .about {
@@ -1042,6 +1046,22 @@ footer > div {
       color: #fff;
     }
   }
+}
+.subsection {
+  position: relative;
+  .header-hero-text {
+    position: absolute;
+    top: 30%;
+    left: 120px;
+    h1,
+    h2 {
+      color: #fff;
+    }
+  }
+}
+.eventbrite {
+  background-color: $ceti-grey-light;
+  padding-bottom: 80px;
 }
 
 .blog-page {
