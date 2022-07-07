@@ -279,6 +279,9 @@ ul.links-horiz li {
 .enchanted-page footer a:hover {
   text-decoration: none;
 }
+.enchanted-page .inner {
+  margin-bottom: 80px;
+}
 .enchanted-page a {
   color: #e5450a;
 }
@@ -286,7 +289,7 @@ ul.links-horiz li {
   text-decoration: underline;
 }
 .enchanted-page figure {
-  margin-top: 80px;
+  margin-top: 0;
 }
 
 .about {
@@ -1072,7 +1075,7 @@ footer > div {
 }
 #intro .header-hero-text h1,
 #intro .header-hero-text h2 {
-  color: #fff;
+  color: #505555;
 }
 
 .subsection {
